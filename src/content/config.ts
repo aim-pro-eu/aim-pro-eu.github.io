@@ -15,6 +15,20 @@ const sectionsCollection = defineCollection({
       title: z.string(),
       description: z.string()
     })).optional(),
+    deliverables: z.array(z.object({
+      code: z.string(), // ex: D1.1
+      title: z.string(),
+      description: z.string().optional(),
+      file: z.string(), // Chemin vers le PDF
+      date: z.string().optional() // ex: "February 2026"
+    })).optional(),
+    scientific_papers: z.array(z.object({
+      title: z.string(),
+      authors: z.string(),
+      publisher: z.string(), // ex: IEEE, Springer
+      link: z.string().url(),
+      year: z.string()
+    })).optional(),
   }),
 });
 

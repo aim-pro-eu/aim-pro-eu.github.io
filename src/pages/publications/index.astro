@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.vue';
+import PublicationsList from '../../components/PublicationsList.vue';
+import Footer from '../../components/Footer.vue';
+import { getEntry } from 'astro:content';
+
+// Récupération des données depuis le fichier unique
+const pubData = await getEntry('sections', 'publications');
+const { title, subTitle, deliverables, scientific_papers } = pubData.data;
+---
+
+<Layout title={`${title} | AIM-PRO Project`}>
+  <Navbar client:load />
+
+  <main class="pt-24 pb-20 bg-slate-50 min-h-screen">
+    <!-- En-tête -->
+
+    <!-- Composant Vue Interactif -->
+    <PublicationsList 
+        title={title}
+        subTitle={subTitle}
+      deliverables={deliverables} 
+      papers={scientific_papers} 
+    />
+  </main>
+
+  <Footer />
+</Layout>

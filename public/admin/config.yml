@@ -42,6 +42,32 @@ collections:
             fields:
               - {label: "Code (ex: SO1)", name: "code", widget: "string"}
               - {label: "Description", name: "description", widget: "text"}
+      - name: "publications"
+        label: "Page Publications"
+        file: "src/content/sections/publications.md"
+        fields:
+          - {label: "Titre de la page", name: "title", widget: "string", default: "Publications & Resources"}
+          - {label: "Introduction", name: "intro", widget: "text"}
+          
+          - label: "Livrables du Projet (PDFs)"
+            name: "deliverables"
+            widget: "list"
+            fields:
+              - {label: "Code (ex: D1.1)", name: "code", widget: "string"}
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Description courte", name: "description", widget: "text", required: false}
+              - {label: "Date", name: "date", widget: "string", required: false}
+              - {label: "Fichier PDF", name: "file", widget: "file"}
+          
+          - label: "Publications Scientifiques (Liens externes)"
+            name: "scientific_papers"
+            widget: "list"
+            fields:
+              - {label: "Titre de l'article", name: "title", widget: "string"}
+              - {label: "Auteurs", name: "authors", widget: "string"}
+              - {label: "Éditeur/Conférence", name: "publisher", widget: "string"}
+              - {label: "Année", name: "year", widget: "string"}
+              - {label: "Lien vers l'article", name: "link", widget: "string"}
 
   # Collection pour les Partenaires (Basé sur la liste UDA, FBK, UNIPI...)
   - name: "partners"
