@@ -1,0 +1,33 @@
+---
+import '../styles/global.css'
+// src/layouts/Layout.astro
+interface Props {
+	title: string;
+    description?: string;
+}
+
+const { title, description = "AI Literacy for Multidisciplinary Professional Readiness" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <!-- Police Inter via Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+		<title>{title}</title>
+	</head>
+	<body class="font-inter text-slate-800 bg-white antialiased">
+		<slot />
+	</body>
+</html>
+
+<style is:global>
+	/* Styles globaux si nécessaire */
+    .font-inter { font-family: 'Inter', sans-serif; }
+</style>

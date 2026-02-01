@@ -1,0 +1,66 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  # Collection pour les sections uniques de la One-Page
+  - name: "sections"
+    label: "Sections de la Page"
+    files:
+      - name: "hero"
+        label: "Hero (Haut de page)"
+        file: "src/content/sections/hero.md"
+        fields:
+          - {label: "Titre du Projet", name: "title", widget: "string"}
+          - {label: "Acronyme", name: "acronym", widget: "string"}
+          - {label: "Image de fond", name: "image", widget: "image"}
+          - {label: "Résumé court", name: "body", widget: "markdown"}
+      
+      - name: "about"
+        label: "À propos (Résumé)"
+        file: "src/content/sections/about.md"
+        fields:
+          - {label: "Titre", name: "title", widget: "string", default: "Project Summary"}
+          - {label: "Contenu", name: "body", widget: "markdown"} 
+          # Ici on mettra le texte "In the era of digital transformation..." du PDF
+
+      - name: "objectives"
+        label: "Objectifs Spécifiques"
+        file: "src/content/sections/objectives.md"
+        fields:
+          - {label: "Titre", name: "title", widget: "string", default: "Specific Objectives"}
+          - {label: "Introduction", name: "intro", widget: "text"}
+          - label: "Liste des Objectifs"
+            name: "objectives_list"
+            widget: "list"
+            fields:
+              - {label: "Code (ex: SO1)", name: "code", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+
+  # Collection pour les Partenaires (Basé sur la liste UDA, FBK, UNIPI...)
+  - name: "partners"
+    label: "Partenaires"
+    folder: "src/content/partners"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Nom Court (Acronyme)", name: "shortname", widget: "string"} # ex: UDA
+      - {label: "Nom Complet", name: "fullname", widget: "string"} # ex: Università degli Studi dell'Aquila
+      - {label: "Pays", name: "country", widget: "select", options: ["Italy", "Spain", "Germany", "Sweden", "Netherlands", "Slovenia", "Greece", "France", "Belgium"]}
+      - {label: "Rôle", name: "role", widget: "select", options: ["Coordinator", "Beneficiary", "Associated Partner"]}
+      - {label: "Logo", name: "logo", widget: "image"}
+      - {label: "Site Web", name: "website", widget: "string", required: false}
+
+  # Collection pour les Work Packages
+  - name: "workpackages"
+    label: "Work Packages"
+    folder: "src/content/workpackages"
+    create: true
+    fields:
+      - {label: "Numéro (ex: WP1)", name: "wp_number", widget: "string"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Leader", name: "leader", widget: "string"}
+      - {label: "Mois début/fin", name: "timing", widget: "string"} # ex: M1-M36

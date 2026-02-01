@@ -1,0 +1,90 @@
+---
+// src/pages/index.astro
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.vue';
+import Hero from '../components/Hero.vue';
+import About from '../components/About.vue';
+import Objectives from '../components/Objectives.vue';
+import WorkPackages from '../components/WorkPackages.vue';
+import Partners from '../components/Partners.vue';
+import Footer from '../components/Footer.vue';
+
+import { getEntry, getCollection } from 'astro:content';
+
+// 1. Récupération des contenus
+const heroEntry = await getEntry('sections', 'hero');
+const aboutEntry = await getEntry('sections', 'about');
+const objectivesEntry = await getEntry('sections', 'objectives');
+
+// 2. Récupération et rendu du Markdown pour les champs 'body'
+const { Content: HeroContent } = await heroEntry.render();
+const { Content: AboutContent } = await aboutEntry.render();
+
+// 3. Récupération des collections (Listes)
+const partners = await getCollection('partners');
+const workPackages = await getCollection('workpackages');
+
+// 4. Tri des partenaires (Coordinateur en premier)
+const sortedPartners = partners.sort((a, b) => {
+  if (a.data.role === 'Coordinator') return -1;
+  if (b.data.role === 'Coordinator') return 1;
+  return a.data.shortname.localeCompare(b.data.shortname);
+}).map(p => p.data); // On ne passe que la partie 'data' à Vue
+
+// 5. Tri des Work Packages par numéro
+const sortedWPs = workPackages.sort((a, b) => {
+  return parseInt(a.data.wpNumber.replace(/\D/g,'')) - parseInt(b.data.wpNumber.replace(/\D/g,''));
+}).map(wp => wp.data);
+
+---
+
+<Layout title="AIM-PRO | AI Literacy Project">
+  <!-- Navbar hydrate immédiatement pour être interactive -->
+  <Navbar client:load />
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home">
+      <Hero 
+        title={heroEntry.data.title}
+        acronym={heroEntry.data.acronym}
+        bgImage={heroEntry.data.bgImage}
+      >
+        <!-- On passe le rendu markdown Astro dans le slot du composant Vue -->
+        <HeroContent />
+      </Hero>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-20 bg-white">
+      <About title={aboutEntry.data.title}>
+        <AboutContent />
+      </About>
+    </section>
+
+    <!-- OBJECTIVES SECTION -->
+    <section id="objectives" class="py-20 bg-slate-50 border-t border-slate-200">
+      <Objectives 
+        title={objectivesEntry.data.title}
+        intro={objectivesEntry.data.intro}
+        list={objectivesEntry.data.objectives}
+      />
+    </section>
+
+    <!-- WORK PACKAGES SECTION -->
+    <section id="work-packages" class="py-20 bg-white border-t border-slate-200">
+      <WorkPackages packages={sortedWPs} />
+    </section>
+
+    <!-- PARTNERS SECTION -->
+    <section id="partners" class="py-20 bg-slate-50 border-t border-slate-200">
+      <!-- client:visible pour charger les images seulement quand on scroll dessus -->
+      <Partners 
+        client:visible 
+        partners={sortedPartners} 
+      />
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
