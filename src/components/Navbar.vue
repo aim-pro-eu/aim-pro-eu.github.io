@@ -49,10 +49,10 @@ import { ref } from 'vue';
 
 const isOpen = ref(false);
 const menuItems = [
-  { label: 'About', href: '#about' },
-  { label: 'Objectives', href: '#objectives' },
-  { label: 'Work Plan', href: '#work-packages' },
-  { label: 'Partners', href: '#partners' },
+  { label: 'About', href: '/#about' },
+  { label: 'Objectives', href: '/#objectives' },
+  { label: 'Work Plan', href: '/#work-packages' },
+  { label: 'Partners', href: '/#partners' },
   { label: 'News', href: '/blog' },
 ];
 </script>
