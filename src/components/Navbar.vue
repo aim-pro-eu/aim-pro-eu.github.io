@@ -53,5 +53,6 @@ const menuItems = [
   { label: 'Objectives', href: '#objectives' },
   { label: 'Work Plan', href: '#work-packages' },
   { label: 'Partners', href: '#partners' },
+  { label: 'News', href: '/blog' },
 ];
 </script>

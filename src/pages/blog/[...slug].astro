@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.vue';
+import Footer from '../../components/Footer.vue';
+
+// Génère les routes statiques pour chaque article
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map(post => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+// Formatage de la date pour l'article
+const formattedDate = new Intl.DateTimeFormat('en-GB', {
+  day: 'numeric', month: 'long', year: 'numeric'
+}).format(post.data.pubDate);
+---
+
+<Layout title={`${post.data.title} | AIM-PRO Blog`}>
+  <Navbar client:load />
+
+  <main class="pt-24 pb-20 bg-white min-h-screen">
+    <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Bouton Retour -->
+      <div class="mb-8">
+        <a href="/blog" class="inline-flex items-center text-sm text-slate-500 hover:text-blue-700 transition-colors">
+          <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+          Back to News
+        </a>
+      </div>
+
+      <!-- En-tête Article -->
+      <header class="mb-10 text-center">
+        <div class="flex items-center justify-center gap-2 text-sm text-slate-500 mb-4">
+          <time datetime={post.data.pubDate.toISOString()}>{formattedDate}</time>
+          <span>•</span>
+          <span class="text-blue-700 font-medium">{post.data.author}</span>
+        </div>
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-6 leading-tight">
+          {post.data.title}
+        </h1>
+        {post.data.image && (
+          <div class="rounded-xl overflow-hidden shadow-sm mt-8">
+            <img src={post.data.image} alt={post.data.title} class="w-full h-auto object-cover" />
+          </div>
+        )}
+      </header>
+
+      <!-- Contenu Markdown (Prose) -->
+      <div class="prose prose-lg prose-slate prose-blue mx-auto prose-img:rounded-xl">
+        <Content />
+      </div>
+
+    </article>
+  </main>
+
+  <Footer />
+</Layout>

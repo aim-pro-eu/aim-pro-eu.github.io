@@ -41,8 +41,24 @@ const workPackagesCollection = defineCollection({
   }),
 });
 
+// Ajoutez ceci dans src/content/config.ts
+const blogCollection = defineCollection({
+  type: 'content',
+  schema: ({ image }) => z.object({
+    title: z.string(),
+    description: z.string(),
+    pubDate: z.date(),
+    author: z.string().default('AIM-PRO Team'),
+    image: z.string().optional(),
+    tags: z.array(z.string()).optional(),
+    draft: z.boolean().default(false), // Utile pour Decap CMS
+  }),
+});
+
+
 export const collections = {
   'sections': sectionsCollection,
   'partners': partnersCollection,
   'workpackages': workPackagesCollection,
+  'blog': blogCollection,
 };

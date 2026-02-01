@@ -67,3 +67,18 @@ collections:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Leader", name: "leader", widget: "string"}
       - {label: "Mois début/fin", name: "timing", widget: "string"} # ex: M1-M36
+
+ # Nouvelle collection Blog
+  - name: "blog"
+    label: "Blog & News"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Date de publication", name: "pubDate", widget: "datetime"}
+      - {label: "Description courte", name: "description", widget: "text"}
+      - {label: "Auteur", name: "author", widget: "string", default: "AIM-PRO Team"}
+      - {label: "Image de couverture", name: "image", widget: "image", required: false}
+      - {label: "Brouillon", name: "draft", widget: "boolean", default: false}
+      - {label: "Contenu", name: "body", widget: "markdown"}

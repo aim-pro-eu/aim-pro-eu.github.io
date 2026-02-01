@@ -1,0 +1,56 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.vue';
+import BlogCard from '../../components/BlogCard.vue';
+import Footer from '../../components/Footer.vue';
+import { getCollection } from 'astro:content';
+
+// Récupérer les articles et trier par date (plus récent en premier)
+// On filtre aussi les brouillons (draft: true) en production
+const posts = (await getCollection('blog', ({ data }) => {
+  return import.meta.env.PROD ? data.draft !== true : true;
+})).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<Layout title="News & Updates | AIM-PRO Project">
+  <Navbar client:load />
+
+  <main class="pt-24 pb-20 bg-slate-50 min-h-screen">
+    <!-- En-tête de la page Blog -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+      <div class="text-center">
+        <h1 class="text-3xl font-extrabold text-slate-900 sm:text-4xl">News & Updates</h1>
+        <p class="mt-4 text-xl text-slate-500 max-w-2xl mx-auto">
+          Follow the latest developments, events, and results from the AIM-PRO consortium.
+        </p>
+      </div>
+    </div>
+
+    <!-- Grille des articles -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {posts.length > 0 ? (
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {posts.map((post) => (
+            <BlogCard 
+              client:visible
+              title={post.data.title}
+              description={post.data.description}
+              date={post.data.pubDate}
+              author={post.data.author}
+              image={post.data.image ? post.data.image : undefined}
+              href={`/blog/${post.slug}`}
+            />
+          ))}
+        </div>
+      ) : (
+        <div class="text-center py-20">
+          <p class="text-slate-500">No news available yet. Check back soon!</p>
+        </div>
+      )}
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
