@@ -4,6 +4,9 @@
 backend:
   name: github
   repo: aim-pro-eu/aim-pro-eu.github.io
+  branch: main
+  base_url: https://aim-pro-eu.github.io
+  auth_endpoint: /auth
 
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
