@@ -40,7 +40,17 @@
             {{ partner.role }}
           </span>
           <div class="text-xs text-slate-400 flex items-center justify-center gap-1">
-            <span>🌍</span> {{ partner.country }}
+            <span v-if="partner.country === 'Italy'">🇮🇹</span>
+            <span v-else-if="partner.country === 'Belgium'">🇧🇪</span>
+            <span v-else-if="partner.country === 'Greece'">🇬🇷</span>
+            <span v-else-if="partner.country === 'Slovenia'">🇸🇮</span>
+            <span v-else-if="partner.country === 'Switzerland'">🇨🇭</span>
+            <span v-else-if="partner.country === 'Sweden'">🇸🇪</span>
+            <span v-else-if="partner.country === 'France'">🇫🇷</span>
+            <span v-else-if="partner.country === 'Netherlands'">🇳🇱</span>
+            <span v-else-if="partner.country === 'Germany'">🇩🇪</span>
+            <span v-else-if="partner.country === 'Spain'">🇪🇸</span>            
+            <span v-else>🌍</span> {{ partner.country }}
           </div>
         </div>
       </div>
