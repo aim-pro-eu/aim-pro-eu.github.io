@@ -18,7 +18,7 @@
       <div class="mt-6 max-w-3xl mx-auto text-xl text-slate-300 prose prose-invert">
         <!-- Rendu du markdown via slot ou props -->
         <slot />
-                <div class="mt-4">        <img src="/public/images/logowhite.svg" alt="AIM-PRO Logo" class="mx-auto h-32 w-32 object-contain" /> 
+                <div class="mt-4">        <img src="/images/logowhite.svg" alt="AIM-PRO Logo" class="mx-auto h-32 w-32 object-contain" /> 
         </div>
 
       </div>
