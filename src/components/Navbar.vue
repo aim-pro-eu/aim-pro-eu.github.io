@@ -6,6 +6,7 @@
         <div class="flex items-center">
           <a href="#" class="flex-shrink-0 flex items-center gap-2">
             <!-- Placez votre logo ici -->
+             <img src="/public/images/logo.png" alt="AIM-PRO Logo" class="h-8 w-8 object-contain" />
             <span class="font-bold text-2xl text-blue-800">AIM-PRO</span>
           </a>
         </div>
