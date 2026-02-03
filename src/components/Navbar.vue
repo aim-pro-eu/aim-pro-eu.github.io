@@ -19,6 +19,7 @@
           </a>
         </div>
 
+        
         <!-- Mobile Menu Button -->
         <div class="flex items-center md:hidden">
           <button @click="isOpen = !isOpen" class="text-slate-600 hover:text-blue-700 p-2">
