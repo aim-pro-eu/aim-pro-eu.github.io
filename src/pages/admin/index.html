@@ -24,7 +24,7 @@
       ],
 
       // Comment Decap repère ce bloc dans le fichier existant (Regex)
-      pattern: /^<ResponsiveImage src="(.*)" alt="(.*)"(.*)\/>$/,
+      pattern: /^<ResponsiveImage src="(.*?)" alt="(.*?)"(.*?)\/>$/ms,
 
       // Fonction pour extraire les données du fichier vers l'interface (quand on réédite)
       fromBlock: function(match) {
@@ -58,10 +58,42 @@
         return `<ResponsiveImage ${args} />`;
       },
 
-      // Aperçu dans l'éditeur (optionnel, affichage simplifié)
-      toPreview: function(obj) {
-        return `<img src="${obj.src}" alt="${obj.alt}" style="max-width: 100%;" />`;
-      }
+
+toPreview: function(obj, getAsset, fields) {
+  // 1. Gestion de l'image (blob vs url réelle)
+  // getAsset convertit le chemin (ex: "/img/a.jpg") en URL utilisable par l'éditeur
+  const imageDisplay = obj.src ? getAsset(obj.src) : '';
+  
+  if (!imageDisplay) {
+    return '<div style="background:#eee; padding:20px; text-align:center; color:#666;">Sélectionnez une image</div>';
+  }
+
+  // 2. Simulation de la logique CSS de votre composant Vue
+  // On construit une chaîne de style CSS standard
+  let styles = "display: block;";
+
+  // Gestion de la largeur
+  if (obj.width) {
+    // Si l'utilisateur met juste "300", on ajoute "px", sinon on garde "50%"
+    const w = isNaN(obj.width) ? obj.width : obj.width + "px";
+    styles += `width: ${w};`;
+  } else {
+    // Comportement par défaut (Tailwind w-full)
+    styles += "width: 100%;";
+  }
+
+  // Gestion de la hauteur et de l'object-fit
+  if (obj.height) {
+    const h = isNaN(obj.height) ? obj.height : obj.height + "px";
+    styles += `height: ${h}; object-fit: cover;`;
+  } else {
+    styles += "height: auto;";
+  }
+
+  // On retourne le HTML brut qui sera injecté dans l'iframe de l'éditeur
+  return `<img src="${imageDisplay}" alt="${obj.alt || ''}" style="${styles}" />`;
+}
+
     });
   </script>
   </body>
