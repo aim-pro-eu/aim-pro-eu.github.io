@@ -9,11 +9,9 @@ draft: false
 ---
 We are thrilled to announce the official launch of **AIM-PRO (AI Literacy for Multidisciplinary Professional Readiness and Outreach)**.
 
-
-
 ## A new journey begins
 
-On February 1st, 2026, the consortium gathered at the University of L'Aquila (UDA) for the official Kick-off Meeting (PM1). This marks the beginning of a 36-month journey funded by the Erasmus+ programe.
+On February 1st, 2026, the consortium gathered at the University of L'Aquila (UDA) for the official Kick-off Meeting (PM1). This marks the beginning of a 36-month journey funded by the Erasmus+ program.
 
 ### Key discussion points
 
@@ -26,3 +24,5 @@ During the meeting, partners discussed:
 > "AIM-PRO is not just a project, it's a commitment to empower European citizens with the skills of tomorrow."
 
 Stay tuned for more updates!
+
+![](/images/uploads/irisa-1-.png)
