@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.vue';
 import Footer from '../../components/Footer.vue';
+import ResponsiveImage from '../../components/ResponsiveImage.vue';
 
 // Génère les routes statiques pour chaque article
 export async function getStaticPaths() {
@@ -55,7 +56,7 @@ const formattedDate = new Intl.DateTimeFormat('en-GB', {
 
       <!-- Contenu Markdown (Prose) -->
       <div class="prose prose-lg prose-slate prose-blue mx-auto prose-img:rounded-xl">
-        <Content />
+        <Content components={{ ResponsiveImage }}/>
       </div>
 
     </article>

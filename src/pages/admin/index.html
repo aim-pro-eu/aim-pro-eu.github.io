@@ -9,5 +9,60 @@
   </head>
   <body>
     <script src="https://unpkg.com/decap-cms@^3.1.2/dist/decap-cms.js"></script>
+     <!-- Enregistrement du composant personnalisé -->
+  <script>
+    CMS.registerEditorComponent({
+      id: "responsive-image", // Identifiant interne
+      label: "Image Responsive (Vue)", // Nom affiché dans le menu "Plus (+)"
+      
+      // Les champs que l'utilisateur va remplir
+      fields: [
+        { name: "src", label: "Image", widget: "image" },
+        { name: "alt", label: "Texte alternatif", widget: "string" },
+        { name: "width", label: "Largeur (px ou % - optionnel)", widget: "string", required: false },
+        { name: "height", label: "Hauteur (px ou % - optionnel)", widget: "string", required: false },
+      ],
+
+      // Comment Decap repère ce bloc dans le fichier existant (Regex)
+      pattern: /^<ResponsiveImage src="(.*)" alt="(.*)"(.*)\/>$/,
+
+      // Fonction pour extraire les données du fichier vers l'interface (quand on réédite)
+      fromBlock: function(match) {
+        // Analyse basique des attributs optionnels
+        const optionalPart = match[3];
+        let width = "";
+        let height = "";
+        
+        const wMatch = optionalPart.match(/width="([^"]*)"/);
+        const hMatch = optionalPart.match(/height="([^"]*)"/);
+        
+        if (wMatch) width = wMatch[1];
+        if (hMatch) height = hMatch[1];
+
+        return {
+          src: match[1],
+          alt: match[2],
+          width: width,
+          height: height
+        };
+      },
+
+      // Fonction pour générer le code qui sera sauvegardé dans le fichier .mdx
+      toBlock: function(obj) {
+        let args = `src="${obj.src}" alt="${obj.alt}"`;
+        
+        if (obj.width) args += ` width="${obj.width}"`;
+        if (obj.height) args += ` height="${obj.height}"`;
+        
+        // On retourne la chaîne du composant
+        return `<ResponsiveImage ${args} />`;
+      },
+
+      // Aperçu dans l'éditeur (optionnel, affichage simplifié)
+      toPreview: function(obj) {
+        return `<img src="${obj.src}" alt="${obj.alt}" style="max-width: 100%;" />`;
+      }
+    });
+  </script>
   </body>
 </html>

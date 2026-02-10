@@ -102,6 +102,8 @@ collections:
     label: "Blog & News"
     folder: "src/content/blog"
     create: true
+    extension: "mdx"       # <--- Important : on force l'extension MDX
+    format: "frontmatter"  # <--- Important pour que Decap gère bien le YAML + contenu
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Titre", name: "title", widget: "string"}

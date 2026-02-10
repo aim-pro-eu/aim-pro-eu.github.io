@@ -7,42 +7,40 @@ import vue from '@astrojs/vue';
 
 import tailwindcss from '@tailwindcss/vite';
 
+import mdx from '@astrojs/mdx';
+
 // https://astro.build/config
 export default defineConfig({
-  integrations: [
-/*      AstroPWA({
+  integrations: [/*      AstroPWA({
 
-       devOptions: {
-        enabled: true
-      },
-      customReference: 'sw',
-      includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png',
-        
-        'images/*.{png,svg,jpg,gif,webp,svg,avif}',
-        'images/logos/*.{png,svg,jpg,gif,webp,svg}',
-
-      ],
-
-    }
-
-      )*/
-      serviceWorker({
-      path: "./src/sw.ts",
-       registrationHooks: {
-        afterRegistration: async () => {
-          const sw = await navigator.serviceWorker.getRegistration();
-          console.log(">>> registrered", sw);
+         devOptions: {
+          enabled: true
         },
-        installing: () => console.log("installing..."),
-        waiting: () => console.log("waiting..."),
-        active: () => console.log("active..."),
-        error: (error) => console.error(error),
-        unsupported: () => console.log(":("),
-      },
-    })
-      ,
-    vue()
-  ],
+        customReference: 'sw',
+        includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png',
+          
+          'images/*.{png,svg,jpg,gif,webp,svg,avif}',
+          'images/logos/*.{png,svg,jpg,gif,webp,svg}',
+
+        ],
+
+      }
+
+        )*/
+  serviceWorker({
+  path: "./src/sw.ts",
+   registrationHooks: {
+    afterRegistration: async () => {
+      const sw = await navigator.serviceWorker.getRegistration();
+      console.log(">>> registrered", sw);
+    },
+    installing: () => console.log("installing..."),
+    waiting: () => console.log("waiting..."),
+    active: () => console.log("active..."),
+    error: (error) => console.error(error),
+    unsupported: () => console.log(":("),
+  },
+}), vue(), mdx()],
   vite: {
     plugins: [tailwindcss(),
       /* VitePWA({
