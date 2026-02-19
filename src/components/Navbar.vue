@@ -56,6 +56,7 @@ const menuItems = [
   { label: 'Work Plan', href: '/#work-packages' },
   { label: 'Partners', href: '/#partners' },
   { label: 'News', href: '/blog' },
+  { label: 'Newsletters', href: '/newsletters' }, 
   { label: 'Publications', href: '/publications' }, 
 
 ];

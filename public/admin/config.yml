@@ -113,3 +113,23 @@ collections:
       - {label: "Image de couverture", name: "image", widget: "image", required: false}
       - {label: "Brouillon", name: "draft", widget: "boolean", default: false}
       - {label: "Contenu", name: "body", widget: "markdown"}
+
+  
+  - name: "newsletters"
+    label: "Newsletters"
+    folder: "src/content/newsletters"
+    create: true
+    slug: "{{year}}-{{month}}-newsletter"
+    fields:
+      - {label: "Newsletter title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Main Image", name: "coverImage", widget: "image", required: false}
+      - {label: "Newsletter content", name: "body", widget: "markdown"}      
+      - label: "Social Media Review (Optional)"
+        name: "linkedinPosts"
+        widget: "list"
+        fields:
+          - {label: "Author", name: "author", widget: "string"}
+          - {label: "Summary", name: "summary", widget: "string"}
+          - {label: "Link", name: "postUrl", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}

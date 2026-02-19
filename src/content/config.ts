@@ -70,9 +70,29 @@ const blogCollection = defineCollection({
 });
 
 
+// src/content/config.ts
+const newslettersCollection = defineCollection({
+  type: 'content',
+  schema: ({ image }) => z.object({
+    title: z.string(),
+    date: z.date(),
+    intro: z.string(), // Optionnel : on peut tout mettre dans le body maintenant
+    coverImage: z.string().optional(),
+    
+    // On garde le Social Watch car c'est un bonus sympa en fin de PDF
+    linkedinPosts: z.array(z.object({
+      author: z.string(),
+      summary: z.string(),
+      postUrl: z.string().url(),
+      image: z.string().optional(),
+    })).optional(),
+  }),
+});
 export const collections = {
   'sections': sectionsCollection,
   'partners': partnersCollection,
   'workpackages': workPackagesCollection,
   'blog': blogCollection,
+  'newsletters': newslettersCollection,
+
 };
