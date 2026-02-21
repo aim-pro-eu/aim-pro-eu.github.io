@@ -8,7 +8,7 @@
         Subscribe to our newsletter to receive the latest updates on AI Literacy and project results.
       </p>
       
-      <form @submit="submitForm" class="space-y-3">
+      <form @submit.prevent="submitForm" class="space-y-3">
         <div class="relative">
           <input 
             v-model="email"
@@ -94,7 +94,7 @@ const submitForm = async () => {
     // mais la soumission fonctionne quand même.
     await fetch(GOOGLE_FORM_ACTION_URL, {
       method: 'POST',
-//      mode: 'no-cors',
+      mode: 'no-cors',
       body: formData
     });
 
@@ -103,9 +103,9 @@ const submitForm = async () => {
     email.value = '';
   } catch (err) {
     console.error('Submission error:', err);
-//    error.value = true;
+    error.value = true;
   } finally {
-//    isLoading.value = false;
+    isLoading.value = false;
   }
 };
 </script>
