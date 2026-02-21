@@ -8,7 +8,7 @@
         Subscribe to our newsletter to receive the latest updates on AI Literacy and project results.
       </p>
       
-      <form @submit.prevent="submitForm" class="space-y-3">
+      <form @submit="submitForm" class="space-y-3">
         <div class="relative">
           <input 
             v-model="email"
@@ -69,7 +69,6 @@ import { ref } from 'vue';
 // --- CONFIGURATION ---
 // Remplacez ces valeurs par celles obtenues à l'Étape 1
 const GOOGLE_FORM_ACTION_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSeQIJtn1SKisLF2EcgYBc9NByvz06QT92qwtE3Siaa94Mv78Q/formResponse';
-// https://docs.google.com/forms/d/e//viewform?usp=publish-editor
 
 //https://docs.google.com/forms/d/e/1FAIpQLSeQIJtn1SKisLF2EcgYBc9NByvz06QT92qwtE3Siaa94Mv78Q/viewform?usp=pp_url&entry.2116962394=test@test.com
 const EMAIL_FIELD_NAME = 'entry.2116962394'; 
@@ -82,19 +81,20 @@ const isSubmitted = ref(false);
 const error = ref(false);
 
 const submitForm = async () => {
-  isLoading.value = true;
+    console.error('Submitting form with email:', email.value, 'and consent:', consent.value); // Debug: Vérifier les valeurs avant soumission
+    isLoading.value = true;
   error.value = false;
 
   const formData = new FormData();
   formData.append(EMAIL_FIELD_NAME, email.value);
-
+    console.error('Form Data:', Array.from(formData.entries())); // Debug: Vérifier les données envoyées
   try {
     // Mode 'no-cors' est nécessaire pour Google Forms.
     // Cela signifie qu'on ne peut pas lire la réponse (200 OK), 
     // mais la soumission fonctionne quand même.
     await fetch(GOOGLE_FORM_ACTION_URL, {
       method: 'POST',
-      mode: 'no-cors',
+//      mode: 'no-cors',
       body: formData
     });
 
@@ -103,9 +103,9 @@ const submitForm = async () => {
     email.value = '';
   } catch (err) {
     console.error('Submission error:', err);
-    error.value = true;
+//    error.value = true;
   } finally {
-    isLoading.value = false;
+//    isLoading.value = false;
   }
 };
 </script>
