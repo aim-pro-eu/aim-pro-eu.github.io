@@ -1,13 +1,13 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.vue';
-import PublicationsList from '../../components/PublicationsList.vue';
 import Footer from '../../components/Footer.vue';
 import { getEntry } from 'astro:content';
+import ZenodoPublications from '../../components/ZenodoPublications.vue';
 
 // Récupération des données depuis le fichier unique
 const pubData = await getEntry('sections', 'publications');
-const { title, subTitle, deliverables, scientific_papers } = pubData.data;
+ const { title } = pubData.data;
 ---
 
 <Layout title={`${title} | AIM-PRO Project`}>
@@ -17,11 +17,16 @@ const { title, subTitle, deliverables, scientific_papers } = pubData.data;
     <!-- En-tête -->
 
     <!-- Composant Vue Interactif -->
-    <PublicationsList 
+<!--     <PublicationsList 
         title={title}
         subTitle={subTitle}
       deliverables={deliverables} 
       papers={scientific_papers} 
+    /> --> 
+       <ZenodoPublications 
+      communityId={'eu'} 
+      limit={25}
+      client:visible 
     />
   </main>
 
