@@ -23,7 +23,7 @@
           <div v-else class="h-16 w-16 bg-slate-100 rounded-full flex items-center justify-center text-slate-400">?</div>
         </div>
         
-        <h3 class="font-bold text-lg text-slate-900">{{ partner.shortname }}</h3>
+        <h3 class="font-bold text-lg text-slate-900"> <a target="_blank" :href="partner.website" class="hover:underline"> {{ partner.shortname }}</a></h3>
         <p class="text-xs text-slate-500 mb-3 line-clamp-2 h-8" :title="partner.fullname">
           {{ partner.fullname }}
         </p>
