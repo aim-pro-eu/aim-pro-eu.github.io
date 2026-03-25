@@ -15,7 +15,7 @@
             type="email" 
             placeholder="Enter your email" 
             required
-            class="w-full px-4 py-2 bg-slate-800 border border-slate-700 rounded-md text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+            class="w-full px-4 py-2  border border-slate-700 rounded-md placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
             :disabled="isLoading"
           />
         </div>
@@ -53,7 +53,7 @@
     </div>
 
     <!-- Message de succès -->
-    <div v-else class="bg-green-900/30 border border-green-800 rounded-lg p-4 text-center">
+    <div v-else class="bg-green-900 border border-green-800 rounded-lg p-4 text-center">
       <div class="text-green-400 text-3xl mb-2">✓</div>
       <h4 class="text-white font-medium mb-1">Thank you!</h4>
       <p class="text-slate-400 text-sm">
@@ -65,6 +65,8 @@
 
 <script setup>
 import { ref } from 'vue';
+
+
 
 // --- CONFIGURATION ---
 // Remplacez ces valeurs par celles obtenues à l'Étape 1

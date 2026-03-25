@@ -3,6 +3,8 @@ import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.vue';
 import Footer from '../../components/Footer.vue';
 import { getCollection } from 'astro:content';
+import NewsletterForm from '../../components/NewsletterForm.vue';
+
 
 const newsletters = (await getCollection('newsletters')).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
@@ -20,6 +22,7 @@ const formatDate = (date: Date) => {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 text-center">
       <h1 class="text-3xl font-extrabold text-slate-900 sm:text-4xl">Project Newsletters</h1>
       <p class="mt-4 text-xl text-slate-500">Monthly updates and social media highlights.</p>
+
     </div>
 
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
@@ -54,7 +57,15 @@ const formatDate = (date: Date) => {
           </div>
         </a>
       ))}
+
+                    <div>
+          <!-- L'hydratation (client:visible) est nécessaire pour que le formulaire marche -->
+          <NewsletterForm  client:visible />
+
+        </div> 
+
     </div>
+    
   </main>
 
 <Footer client:visible />
