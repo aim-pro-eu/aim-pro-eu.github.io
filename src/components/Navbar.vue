@@ -57,7 +57,7 @@ const menuItems = [
   { label: 'Partners', href: '/#partners' },
   { label: 'News', href: '/blog' },
   { label: 'Newsletters', href: '/newsletters' }, 
-  { label: 'Publications', href: '/publications' }, 
+  { label: 'Results', href: '/publications' }, 
 
 ];
 </script>
