@@ -12,119 +12,120 @@ media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  # Collection pour les sections uniques de la One-Page
+  # Collection for single sections of the One-Page
   - name: "sections"
-    label: "Sections de la Page"
+    label: "Page Sections"
     files:
       - name: "hero"
-        label: "Hero (Haut de page)"
+        label: "Hero (Top of Page)"
         file: "src/content/sections/hero.md"
         fields:
-          - {label: "Titre du Projet", name: "title", widget: "string"}
-          - {label: "Acronyme", name: "acronym", widget: "string"}
-          - {label: "Image de fond", name: "image", widget: "image"}
-          - {label: "Résumé court", name: "body", widget: "markdown"}
-      
+          - {label: "Project Title", name: "title", widget: "string"}
+          - {label: "Acronym", name: "acronym", widget: "string"}
+          - {label: "Background Image", name: "image", widget: "image"}
+          - {label: "Short Summary", name: "body", widget: "markdown"}
+
       - name: "about"
-        label: "À propos (Résumé)"
+        label: "About (Summary)"
         file: "src/content/sections/about.md"
         fields:
-          - {label: "Titre", name: "title", widget: "string", default: "Project Summary"}
-          - {label: "Contenu", name: "body", widget: "markdown"} 
-          # Ici on mettra le texte "In the era of digital transformation..." du PDF
+          - {label: "Title", name: "title", widget: "string", default: "Project Summary"}
+          - {label: "Content", name: "body", widget: "markdown"}
+          # Here we will put the text "In the era of digital transformation..." from the PDF
 
       - name: "objectives"
-        label: "Objectifs Spécifiques"
+        label: "Specific Objectives"
         file: "src/content/sections/objectives.md"
         fields:
-          - {label: "Titre", name: "title", widget: "string", default: "Specific Objectives"}
+          - {label: "Title", name: "title", widget: "string", default: "Specific Objectives"}
           - {label: "Introduction", name: "intro", widget: "text"}
-          - label: "Liste des Objectifs"
+          - label: "Objectives List"
             name: "objectives_list"
             widget: "list"
             fields:
-              - {label: "Code (ex: SO1)", name: "code", widget: "string"}
+              - {label: "Code (e.g., SO1)", name: "code", widget: "string"}
               - {label: "Description", name: "description", widget: "text"}
+
       - name: "publications"
-        label: "Page Publications"
+        label: "Publications Page"
         file: "src/content/sections/publications.md"
         fields:
-          - {label: "Titre de la page", name: "title", widget: "string", default: "Publications & Resources"}
+          - {label: "Page Title", name: "title", widget: "string", default: "Publications & Resources"}
           - {label: "Introduction", name: "intro", widget: "text"}
-          
-          - label: "Livrables du Projet (PDFs)"
+
+          - label: "Project Deliverables (PDFs)"
             name: "deliverables"
             widget: "list"
             fields:
-              - {label: "Code (ex: D1.1)", name: "code", widget: "string"}
-              - {label: "Titre", name: "title", widget: "string"}
-              - {label: "Description courte", name: "description", widget: "text", required: false}
+              - {label: "Code (e.g., D1.1)", name: "code", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Short Description", name: "description", widget: "text", required: false}
               - {label: "Date", name: "date", widget: "string", required: false}
-              - {label: "Fichier PDF", name: "file", widget: "file"}
-          
-          - label: "Publications Scientifiques (Liens externes)"
+              - {label: "PDF File", name: "file", widget: "file"}
+
+          - label: "Scientific Publications (External Links)"
             name: "scientific_papers"
             widget: "list"
             fields:
-              - {label: "Titre de l'article", name: "title", widget: "string"}
-              - {label: "Auteurs", name: "authors", widget: "string"}
-              - {label: "Éditeur/Conférence", name: "publisher", widget: "string"}
-              - {label: "Année", name: "year", widget: "string"}
-              - {label: "Lien vers l'article", name: "link", widget: "string"}
+              - {label: "Article Title", name: "title", widget: "string"}
+              - {label: "Authors", name: "authors", widget: "string"}
+              - {label: "Publisher/Conference", name: "publisher", widget: "string"}
+              - {label: "Year", name: "year", widget: "string"}
+              - {label: "Link to Article", name: "link", widget: "string"}
 
-  # Collection pour les Partenaires (Basé sur la liste UDA, FBK, UNIPI...)
+  # Collection for Partners (Based on UDA, FBK, UNIPI list...)
   - name: "partners"
-    label: "Partenaires"
+    label: "Partners"
     folder: "src/content/partners"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Nom Court (Acronyme)", name: "shortname", widget: "string"} # ex: UDA
-      - {label: "Nom Complet", name: "fullname", widget: "string"} # ex: Università degli Studi dell'Aquila
-      - {label: "Pays", name: "country", widget: "select", options: ["Italy", "Spain", "Germany", "Sweden", "Netherlands", "Slovenia", "Greece", "France", "Belgium"]}
-      - {label: "Rôle", name: "role", widget: "select", options: ["Coordinator", "Beneficiary", "Associated Partner"]}
+      - {label: "Short Name (Acronym)", name: "shortname", widget: "string"} # e.g., UDA
+      - {label: "Full Name", name: "fullname", widget: "string"} # e.g., Università degli Studi dell'Aquila
+      - {label: "Country", name: "country", widget: "select", options: ["Italy", "Spain", "Germany", "Sweden", "Netherlands", "Slovenia", "Greece", "France", "Belgium", "Switzerland"]}
+      - {label: "Role", name: "role", widget: "select", options: ["Coordinator", "Beneficiary", "Associated Partner"]}
       - {label: "Logo", name: "logo", widget: "image"}
-      - {label: "Site Web", name: "website", widget: "string", required: false}
+      - {label: "Website", name: "website", widget: "string", required: false}
 
-  # Collection pour les Work Packages
+  # Collection for Work Packages
   - name: "workpackages"
     label: "Work Packages"
     folder: "src/content/workpackages"
     create: true
     fields:
-      - {label: "Numéro (ex: WP1)", name: "wp_number", widget: "string"}
-      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Number (e.g., WP1)", name: "wp_number", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Leader", name: "leader", widget: "string"}
-      - {label: "Mois début/fin", name: "timing", widget: "string"} # ex: M1-M36
+      - {label: "Start/End Month", name: "timing", widget: "string"} # e.g., M1-M36
 
- # Nouvelle collection Blog
+ # New Blog Collection
   - name: "blog"
     label: "Blog & News"
     folder: "src/content/blog"
     create: true
-    extension: "mdx"       # <--- Important : on force l'extension MDX
-    format: "frontmatter"  # <--- Important pour que Decap gère bien le YAML + contenu
+    extension: "mdx"       # <--- Important: force MDX extension
+    format: "frontmatter"  # <--- Important for Decap to handle YAML + content
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Titre", name: "title", widget: "string"}
-      - {label: "Date de publication", name: "pubDate", widget: "datetime"}
-      - {label: "Description courte", name: "description", widget: "text"}
-      - {label: "Auteur", name: "author", widget: "string", default: "AIM-PRO Team"}
-      - {label: "Image de couverture", name: "image", widget: "image", required: false}
-      - {label: "Brouillon", name: "draft", widget: "boolean", default: false}
-      - {label: "Contenu", name: "body", widget: "markdown"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publication Date", name: "pubDate", widget: "datetime"}
+      - {label: "Short Description", name: "description", widget: "text"}
+      - {label: "Author", name: "author", widget: "string", default: "AIM-PRO Team"}
+      - {label: "Cover Image", name: "image", widget: "image", required: false}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Content", name: "body", widget: "markdown"}
 
-  
+
   - name: "newsletters"
     label: "Newsletters"
     folder: "src/content/newsletters"
     create: true
     slug: "{{year}}-{{month}}-newsletter"
     fields:
-      - {label: "Newsletter title", name: "title", widget: "string"}
+      - {label: "Newsletter Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Main Image", name: "coverImage", widget: "image", required: false}
-      - {label: "Newsletter content", name: "body", widget: "markdown"}      
+      - {label: "Newsletter Content", name: "body", widget: "markdown"}
       - label: "Social Media Review (Optional)"
         name: "linkedinPosts"
         widget: "list"
