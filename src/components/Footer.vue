@@ -14,11 +14,18 @@
           </p>
           <div class="flex space-x-4">
             <!-- Icônes réseaux sociaux (exemples) -->
-            <a href="#" class="text-slate-400 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/company/aim-pro-eu" class="text-slate-400 hover:text-white transition-colors">
               <span class="sr-only">LinkedIn</span>
               <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
             </a>
+            <a href="https://www.youtube.com/@AIM-PRO-EU" class="text-slate-400 hover:text-white transition-colors">
+              <span class="sr-only">Youtube</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23.498 6.186a2.994 2.994 0 0 0-2.11-2.11C19.845 3.5 12 3.5 12 3.5s-7.845 0-9.388.576a2.994 2.994 0 0 0-2.11 2.11C0 7.729 0 12 0 12s0 4.271.502 5.814a2.994 2.994 0 0 0 2.11 2.11C4.155 20.5 12 20.5 12 20.5s7.845 0 9.388-.576a2.994 2.994 0 0 0 2.11-2.11C24 16.271 24 12 24 12s0-4.271-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
+            </a>
           </div>
+
         </div>
         
         <!-- Colonne 2 : Liens -->
@@ -26,9 +33,12 @@
           <h3 class="text-sm font-semibold text-white tracking-wider uppercase mb-4">Quick Links</h3>
           <ul class="space-y-2 text-sm">
             <li><a href="/#about" class="hover:text-white transition-colors">About</a></li>
+            <li><a href="/#objectives" class="hover:text-white transition-colors">Objectives</a></li>
             <li><a href="/#partners" class="hover:text-white transition-colors">Partners</a></li>
-            <li><a href="/publications" class="hover:text-white transition-colors">Publications</a></li>
+            <li><a href="/#work-packages" class="hover:text-white transition-colors">Work Plan Structure</a></li>
+            <li><a href="/publications" class="hover:text-white transition-colors">Results</a></li>
             <li><a href="/newsletters" class="hover:text-white transition-colors">Newsletters</a></li>
+            <li><a href="/privacy-policy" class="hover:text-white transition-colors">Privacy & Cookies Policy </a></li>
           </ul>
         </div>
 
@@ -72,4 +82,5 @@
 
 <script setup>
 import NewsletterForm from './NewsletterForm.vue';
+import Objectives from "./Objectives.vue";
 </script>

@@ -8,6 +8,7 @@ import Objectives from '../components/Objectives.vue';
 import WorkPackages from '../components/WorkPackages.vue';
 import Partners from '../components/Partners.vue';
 import Footer from '../components/Footer.vue';
+import YoutubeVideoIntegration from '../components/YoutubeVideoIntegration.vue';
 
 import { getEntry, getCollection } from 'astro:content';
 
@@ -72,19 +73,29 @@ const sortedWPs = workPackages.sort((a, b) => {
       />
     </section>
 
+    <!-- PARTNERS SECTION -->
+    <section id="partners" class="py-20 bg-white border-t border-slate-200">
+      <!-- client:visible pour charger les images seulement quand on scroll dessus -->
+      <Partners
+        client:visible
+        partners={sortedPartners}
+      />
+    </section>
+
     <!-- WORK PACKAGES SECTION -->
-    <section id="work-packages" class="py-20 bg-white border-t border-slate-200">
+    <section id="work-packages" class="py-20 bg-slate-50 border-t border-slate-200">
       <WorkPackages packages={sortedWPs} />
     </section>
 
-    <!-- PARTNERS SECTION -->
-    <section id="partners" class="py-20 bg-slate-50 border-t border-slate-200">
-      <!-- client:visible pour charger les images seulement quand on scroll dessus -->
-      <Partners 
-        client:visible 
-        partners={sortedPartners} 
+        <!-- VIDEO SECTION -->
+    <section id="videoIntro" class="py-20 bg-white border-t border-slate-200">
+      <YoutubeVideoIntegration
+        title="Learn More about AIM-PRO"
+        subtitle="AIM-PRO Kick-Off Meeting Video"
+        videoSrc="https://www.youtube.com/embed/ubFHipHqp_0?si=GEaHPosgFRtbVAlu"
       />
     </section>
+
   </main>
 
 <Footer client:visible />

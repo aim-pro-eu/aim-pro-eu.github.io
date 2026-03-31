@@ -1,0 +1,25 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.vue';
+import Footer from '../../components/Footer.vue';
+import PrivacyPolicy from '../../components/PrivacyPolicy.vue';
+import { getEntry } from 'astro:content';
+
+const privacyEntry = await getEntry('privacy-policy', 'privacy-policy');
+const { Content: PrivacyPolicyContent } = await privacyEntry.render();
+if (!privacyEntry) throw new Error("Privacy Policy entry not found");
+
+const { title } = privacyEntry.data;
+---
+
+<Layout title={`Privacy Policy | AIM-PRO`}>
+  <Navbar client:load />
+
+  <main class="pt-24 pb-20 bg-slate-50 min-h-screen">
+    <PrivacyPolicy title={title} client:visible>
+      <PrivacyPolicyContent />
+    </PrivacyPolicy>
+  </main>
+
+  <Footer client:visible />
+</Layout>

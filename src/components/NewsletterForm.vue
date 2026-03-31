@@ -33,7 +33,7 @@
           </div>
           <label for="consent" class="ml-2 text-xs text-slate-500">
             I agree to receive communications from AIM-PRO. 
-            <a href="#" class="underline hover:text-slate-300">Privacy Policy</a>.
+            <a href="/privacy-policy" class="underline hover:text-slate-300">Privacy Policy</a>.
           </label>
         </div>
 

@@ -53,11 +53,10 @@ const isOpen = ref(false);
 const menuItems = [
   { label: 'About', href: '/#about' },
   { label: 'Objectives', href: '/#objectives' },
-  { label: 'Work Plan', href: '/#work-packages' },
   { label: 'Partners', href: '/#partners' },
+  { label: 'Work Plan', href: '/#work-packages' },
   { label: 'News', href: '/blog' },
   { label: 'Newsletters', href: '/newsletters' }, 
-  { label: 'Results', href: '/publications' }, 
-
+  { label: 'Results', href: '/publications' },
 ];
 </script>
