@@ -1,19 +1,14 @@
-<!-- src/components/Footer.vue -->
 <template>
   <footer class="bg-slate-900 text-slate-300 py-12 border-t border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <!-- Grille principale : 4 colonnes maintenant -->
+
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-        
-        <!-- Colonne 1 : Info Projet -->
         <div class="space-y-4">
           <span class="text-2xl font-bold text-white">AIM-PRO</span>
           <p class="text-sm text-slate-400">
             AI Literacy for Multidisciplinary Professional Readiness and Outreach.
           </p>
           <div class="flex space-x-4">
-            <!-- Icônes réseaux sociaux (exemples) -->
             <a href="https://www.linkedin.com/company/aim-pro-eu" class="text-slate-400 hover:text-white transition-colors">
               <span class="sr-only">LinkedIn</span>
               <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
@@ -25,24 +20,20 @@
               </svg>
             </a>
           </div>
-
         </div>
-        
-        <!-- Colonne 2 : Liens -->
+
         <div>
           <h3 class="text-sm font-semibold text-white tracking-wider uppercase mb-4">Quick Links</h3>
           <ul class="space-y-2 text-sm">
             <li><a href="/#about" class="hover:text-white transition-colors">About</a></li>
             <li><a href="/#objectives" class="hover:text-white transition-colors">Objectives</a></li>
             <li><a href="/#partners" class="hover:text-white transition-colors">Partners</a></li>
-            <li><a href="/#work-packages" class="hover:text-white transition-colors">Work Plan Structure</a></li>
             <li><a href="/publications" class="hover:text-white transition-colors">Results</a></li>
             <li><a href="/newsletters" class="hover:text-white transition-colors">Newsletters</a></li>
             <li><a href="/privacy-policy" class="hover:text-white transition-colors">Privacy & Cookies Policy </a></li>
           </ul>
         </div>
 
-        <!-- Colonne 3 : Contact -->
         <div>
           <h3 class="text-sm font-semibold text-white tracking-wider uppercase mb-4">Contact</h3>
           <p class="text-sm text-slate-400 mb-2">Project Coordinator: UDA</p>
@@ -53,27 +44,35 @@
           </p>
         </div>
 
-        <!-- Colonne 4 : Newsletter Form (Nouveau !) -->
         <div>
-          <!-- L'hydratation (client:visible) est nécessaire pour que le formulaire marche -->
           <NewsletterForm client:visible />
         </div>
+      </div>
+
+      <div class="pt-8 border-t border-slate-800 grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+        <a href="https://commission.europa.eu/" target="_blank" rel="noopener noreferrer" class="group flex items-start gap-4 transition-colors hover:bg-slate-800/30 p-2 -m-2 rounded-lg">
+          <img src="/images/eu-flag.webp" alt="European Union Flag" class="h-8 w-auto flex-shrink-0 opacity-80 group-hover:opacity-100 transition-opacity" />
+          <p class="text-[10px] leading-relaxed text-slate-500 group-hover:text-slate-400 text-justify transition-colors">
+            This project is funded by the European Union. Views and opinions expressed are however those of the author(s) only
+            and do not necessarily reflect those of the European Union or the European Education and Culture
+            Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.
+            <span class="block mt-1 font-medium text-slate-400 group-hover:text-blue-400">Project: 101245864 — AIM-PRO</span>
+          </p>
+        </a>
+
+        <a href="https://www.movetia.ch" target="_blank" rel="noopener noreferrer" class="group flex items-start gap-4 transition-colors hover:bg-slate-800/30 p-2 -m-2 rounded-lg">
+          <img src="/images/logos/movetia.png" alt="Movetia Logo" class="h-8 w-auto flex-shrink-0 opacity-80 group-hover:opacity-100 transition-opacity" />
+          <p class="text-[10px] leading-relaxed text-slate-500 group-hover:text-slate-400 text-justify transition-colors">
+            This project is financially supported by Movetia. This Swiss funding agency promotes exchanges, mobility
+            and cooperation in education, continuing education and youth work - in Switzerland, Europe and worldwide.
+            <span class="block mt-1 font-medium text-slate-400 group-hover:text-blue-400">Visit www.movetia.ch</span>
+          </p>
+        </a>
 
       </div>
 
-      <!-- Disclaimer UE -->
-      <div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center gap-6">
-        <img src="/images/eu-flag.webp" alt="European Union Flag" class="h-12 w-auto" /> 
-        <p class="text-xs text-slate-500 text-justify max-w-3xl">
-          Funded by the European Union. Views and opinions expressed are however those of the author(s) only 
-          and do not necessarily reflect those of the European Union or the European Education and Culture 
-          Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.
-          <br>
-          <span class="block mt-2">Project: 101245864 — AIM-PRO</span>
-        </p>
-      </div>
-      
-      <div class="mt-8 text-center text-xs text-slate-600">
+      <div class="mt-12 text-center text-xs text-slate-600">
         &copy; {{ new Date().getFullYear() }} AIM-PRO Consortium. All rights reserved.
       </div>
     </div>
@@ -82,5 +81,4 @@
 
 <script setup>
 import NewsletterForm from './NewsletterForm.vue';
-import Objectives from "./Objectives.vue";
 </script>
