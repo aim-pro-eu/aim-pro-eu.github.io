@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy"
+title: Privacy Policy
 date: 2026-04-08
 ---
 
@@ -12,23 +12,23 @@ This privacy policy is intended to inform you, in a transparent manner, about th
 ## 1. Responsibility for Processing Your Data
 
 ### Contact Information:
-**Data Controller:**
-University of L'Aquila
-Palazzo Camponeschi, piazza Santa Margherita 2, 67100 L'Aquila (AQ)
+* **Data Controller:**
+  * University of L'Aquila
+  * Palazzo Camponeschi, piazza Santa Margherita 2, 67100 L'Aquila (AQ)
 
-**Representative:**
-University Rector: Prof. Fabio Graziosi
-Palazzo Camponeschi, piazza Santa Margherita 2, 67100 L'Aquila (AQ)
-Phone: +39-0862432030
-Email: rettore@strutture.univaq.it
-Certified Email (PEC): rettore@pec.univaq.it
+* **Representative:**
+  * University Rector: Prof. Fabio Graziosi
+  * Palazzo Camponeschi, piazza Santa Margherita 2, 67100 L'Aquila (AQ)
+  * Phone: +39-0862432030
+  * Email: rettore@strutture.univaq.it
+  * Certified Email (PEC): rettore@pec.univaq.it
 
-**Data Protection Officer (DPO):**
-Claudio Rossi
-Palazzo Ciavoli Cortelli, via Roma 33, 67100 L'Aquila (AQ)
-Phone: +39-0862432230
-Email: rpd@strutture.univaq.it
-Certified Email (PEC): protocollo@pec.univaq.it
+* **Data Protection Officer (DPO):**
+  * Claudio Rossi
+  * Palazzo Ciavoli Cortelli, via Roma 33, 67100 L'Aquila (AQ)
+  * Phone: +39-0862432230
+  * Email: rpd@strutture.univaq.it
+  * Certified Email (PEC): protocollo@pec.univaq.it
 
 ---
 
