@@ -88,11 +88,20 @@ const newslettersCollection = defineCollection({
     })).optional(),
   }),
 });
+
+const privacyCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    date: z.date(),
+  }),
+});
+
 export const collections = {
   'sections': sectionsCollection,
   'partners': partnersCollection,
   'workpackages': workPackagesCollection,
   'blog': blogCollection,
   'newsletters': newslettersCollection,
-
+  'privacy-policy': privacyCollection
 };

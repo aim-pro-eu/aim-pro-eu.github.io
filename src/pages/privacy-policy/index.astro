@@ -5,20 +5,33 @@ import Footer from '../../components/Footer.vue';
 import PrivacyPolicy from '../../components/PrivacyPolicy.vue';
 import { getEntry } from 'astro:content';
 
-const privacyEntry = await getEntry('privacy-policy', 'privacy-policy');
-const { Content: PrivacyPolicyContent } = await privacyEntry.render();
-if (!privacyEntry) throw new Error("Privacy Policy entry not found");
+// Fetch the content from the 'privacy' collection
+const entry = await getEntry('privacy-policy', 'index');
 
-const { title } = privacyEntry.data;
+if (!entry) {
+  return Astro.redirect('/404');
+}
+
+// Render the Markdown content to HTML
+const { Content } = await entry.render();
 ---
 
 <Layout title={`Privacy Policy | AIM-PRO`}>
   <Navbar client:load />
 
-  <main class="pt-24 pb-20 bg-slate-50 min-h-screen">
-    <PrivacyPolicy title={title} client:visible>
-      <PrivacyPolicyContent />
-    </PrivacyPolicy>
+  <main class="pt-32 pb-20 bg-slate-50 min-h-screen">
+
+    <div class="max-w-4xl mx-auto px-6 lg:px-8">
+
+      <article class="prose prose-slate lg:prose-lg max-w-none">
+
+        <h1 class="text-slate-900">{entry.data.title}</h1>
+
+        <Content />
+
+      </article>
+    </div>
+
   </main>
 
   <Footer client:visible />

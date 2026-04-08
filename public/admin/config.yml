@@ -134,3 +134,14 @@ collections:
           - {label: "Summary", name: "summary", widget: "string"}
           - {label: "Link", name: "postUrl", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
+
+  - name: "privacy"
+    label: "Legal & Privacy Policy"
+    files:
+      - name: "privacy-policy"
+        label: "Privacy Policy"
+        file: "src/content/privacy-policy/index.md"
+        fields:
+            - { label: "Title", name: "title", widget: "string" }
+            - { label: "Last Updated", name: "date", widget: "datetime" }
+            - { label: "Body Content", name: "body", widget: "markdown" }

@@ -1,5 +1,6 @@
 ---
-title: "Privacy & Cookies Policy: AIM-PRO Consortium"
+title: "Privacy Policy"
+date: 2026-04-08
 ---
 
 At **AIM-PRO Consortium ("AIM-PRO")**, we are committed to protecting your data and your privacy. As part of this effort, we process personal data in accordance with the current EU’s General Data Protection Regulation (GDPR).
@@ -10,11 +11,24 @@ This privacy policy is intended to inform you, in a transparent manner, about th
 
 ## 1. Responsibility for Processing Your Data
 
-**Contact Information:**
-* **Name:** AIM-PRO 
-* **Address:**  Via Giovanni Di Vincenzo, 16/B, 67100 L'Aquila AQ, Italy 
-* **Phone:** +41 44 635 4354
-* **E-mail:** info@aim-pro.eu
+### Contact Information:
+**Data Controller:**
+University of L'Aquila
+Palazzo Camponeschi, piazza Santa Margherita 2, 67100 L'Aquila (AQ)
+
+**Representative:**
+University Rector: Prof. Fabio Graziosi
+Palazzo Camponeschi, piazza Santa Margherita 2, 67100 L'Aquila (AQ)
+Phone: +39-0862432030
+Email: rettore@strutture.univaq.it
+Certified Email (PEC): rettore@pec.univaq.it
+
+**Data Protection Officer (DPO):**
+Claudio Rossi
+Palazzo Ciavoli Cortelli, via Roma 33, 67100 L'Aquila (AQ)
+Phone: +39-0862432230
+Email: rpd@strutture.univaq.it
+Certified Email (PEC): protocollo@pec.univaq.it
 
 ---
 
@@ -60,7 +74,7 @@ You have the following rights regarding your data:
 6.  **Right to data portability** (obtain and reuse your data).
 7.  **Right to object** to data processing.
 
-> **To exercise these rights:** Contact us at **info@aim-pro.eu**. We respond without undue delay, within the time provided by the current EU GDPR.
+> **To exercise these rights:** Contact us at **rpd@strutture.univaq.it**. We respond without undue delay, within the time provided by the current EU GDPR.
 
 ---
 
@@ -92,10 +106,4 @@ You can block or delete cookies used on the **AIM-PRO** website via your browser
 
 ## 10. Changes to This Policy
 We are constantly reviewing how we process and protect data. Therefore, changes to our Policy may occur at any time. The latest version can always be consulted on this page.
-
-**Last updated:** April 2023.
-
 ---
-
-## 11. Contact Us
-Should you wish to receive more information, have questions, comments or requests, you can always contact us at: **info@aim-pro.eu**
