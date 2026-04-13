@@ -60,13 +60,15 @@ We strive to collect as little personal data as we need to further our intended 
 
 ## 5. How Do We Store Your Data?
 
-* **Access:** **AIM-PRO** maintains member databases that contain Member profile information. These are used only by authorized **AIM-PRO** staff members for the purposes of the Association.
-* **Retention:** We keep your data only for the time necessary to accomplish the “Intended purpose and activities” of our Association.
-* **Security:** All office staff is made aware of security procedures. **AIM-PRO** ensures appropriate technical, administrative, and physical safeguards to protect against loss, unauthorized access, destruction, misuse, or improper disclosure.
+* **Access:** The **AIM-PRO** Consortium maintains databases containing participant information. Access to these databases is restricted to authorized staff members of the consortium and project partners involved in the implementation of the project, and the data is used exclusively for purposes related to the project’s activities.
+* **Retention:** We keep your data only for the time necessary to accomplish the “Intended purpose and activities” of the **AIM-PRO** Erasmus+ Project.
+* **Security:** All members of **AIM-PRO** Consortium are made aware of security procedures. **AIM-PRO** Data Controller ensures appropriate technical, administrative, and physical safeguards to protect against loss, unauthorized access, destruction, misuse, or improper disclosure.
 
 - - -
 
 ## 6. Data Sharing
+
+Your personal data is not shared outside the AIM-PRO Consortium, except where required for reporting and verification purposes to funding bodies to demonstrate project implementation and outreach. Where such reporting is required, data may be shared only within Europe, including Switzerland and the United Kingdom. Appropriate safeguards are in place to ensure that your data is used solely for the agreed project-related purposes. 
 
 - - -
 
@@ -86,25 +88,17 @@ You have the following rights regarding your data:
 
 - - -
 
-## 8. Supervisory Authority
-
-Since currently **AIM-PRO** does not have an establishment in the EU, where needed we will deal with the local supervisory authorities in the EU Member States.
-
-- - -
-
-## 9. Cookies and Other Tracking Technologies Policy
+## 8. Cookies and Other Tracking Technologies Policy
 
 ### Definitions and Standards
 
 Cookies are small text files that may be sent to and registered on your computer by the websites you visit to "remember" your actions and preferences (login, language, etc.).
 
-* **Session cookies:** Automatically deleted when you close your browser.
-
 ### Types of Cookies Used
 
 **AIM-PRO** only uses technical cookies:
 
-* **Browsing or session cookies:** Strictly necessary for the website’s operation.
+* **Browsing or session cookies:** Strictly necessary for the website’s operation. Automatically deleted when you close your browser.
 
 ### Browser Settings
 
@@ -119,6 +113,6 @@ You can block or delete cookies used on the **AIM-PRO** website via your browser
 
 - - -
 
-## 10. Changes to This Policy
+## 9. Changes to This Policy
 
-## We are constantly reviewing how we process and protect data. Therefore, changes to our Policy may occur at any time. The latest version can always be consulted on this page.
+**We are constantly reviewing how we process and protect data. Therefore, changes to our Policy may occur at any time. The latest version can always be consulted on this page.**
