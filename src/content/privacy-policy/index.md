@@ -68,7 +68,7 @@ We strive to collect as little personal data as we need to further our intended 
 
 ## 6. Data Sharing
 
-Your personal data is not shared outside the AIM-PRO Consortium, except where required for reporting and verification purposes to funding bodies to demonstrate project implementation and outreach. Where such reporting is required, data may be shared only within Europe, including Switzerland and the United Kingdom. Appropriate safeguards are in place to ensure that your data is used solely for the agreed project-related purposes. 
+Your personal data is not shared outside the AIM-PRO Consortium and associated partners, except where required for reporting and verification purposes to funding bodies. Where such reporting is required, data may be shared only within Europe, including Switzerland and the United Kingdom. Appropriate safeguards are in place to ensure that your data is used solely for the agreed project-related purposes. 
 
 - - -
 
