@@ -57,7 +57,7 @@
 
         <a href="https://commission.europa.eu/" target="_blank" rel="noopener noreferrer" class="group flex items-start gap-4 transition-colors hover:bg-slate-800/30 p-2 -m-2 rounded-lg">
           <img src="/images/eu-flag.webp" alt="European Union Flag" class="h-8 w-auto flex-shrink-0 opacity-80 group-hover:opacity-100 transition-opacity" />
-          <p class="text-[10px] leading-relaxed text-slate-500 group-hover:text-slate-400 text-justify transition-colors">
+          <p class="text-[12px] leading-relaxed text-slate-500 group-hover:text-slate-400 text-justify transition-colors">
             This project is funded by the European Union. Views and opinions expressed are however those of the author(s) only
             and do not necessarily reflect those of the European Union or the European Education and Culture
             Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.
@@ -67,7 +67,7 @@
 
         <a href="https://www.movetia.ch" target="_blank" rel="noopener noreferrer" class="group flex items-start gap-4 transition-colors hover:bg-slate-800/30 p-2 -m-2 rounded-lg">
           <img src="/images/logos/movetia.png" alt="Movetia Logo" class="h-8 w-auto flex-shrink-0 opacity-80 group-hover:opacity-100 transition-opacity" />
-          <p class="text-[10px] leading-relaxed text-slate-500 group-hover:text-slate-400 text-justify transition-colors">
+          <p class="text-[12px] leading-relaxed text-slate-500 group-hover:text-slate-400 text-justify transition-colors">
             This project is financially supported by Movetia. This Swiss funding agency promotes exchanges, mobility
             and cooperation in education, continuing education and youth work - in Switzerland, Europe and worldwide.
             <span class="block mt-1 font-medium text-slate-400 group-hover:text-blue-400">Visit www.movetia.ch</span>
