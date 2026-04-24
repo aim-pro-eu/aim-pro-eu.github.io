@@ -19,6 +19,10 @@
                 <path d="M23.498 6.186a2.994 2.994 0 0 0-2.11-2.11C19.845 3.5 12 3.5 12 3.5s-7.845 0-9.388.576a2.994 2.994 0 0 0-2.11 2.11C0 7.729 0 12 0 12s0 4.271.502 5.814a2.994 2.994 0 0 0 2.11 2.11C4.155 20.5 12 20.5 12 20.5s7.845 0 9.388-.576a2.994 2.994 0 0 0 2.11-2.11C24 16.271 24 12 24 12s0-4.271-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
               </svg>
             </a>
+            <a href="https://zenodo.org/communities/aim-pro-eu" target="_blank" rel="noopener noreferrer" class="group flex items-center justify-center h-7 w-7 border-2 border-slate-400 rounded hover:border-white hover:bg-white transition-colors" title="View on Zenodo">
+              <span class="sr-only">Zenodo</span>
+              <span class="text-[15px] font-bold text-slate-400 group-hover:text-slate-900 transition-colors leading-none">ZE</span>
+            </a>
           </div>
         </div>
 
