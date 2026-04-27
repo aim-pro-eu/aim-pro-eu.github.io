@@ -11,21 +11,6 @@ const { title, description = "AI Literacy for Multidisciplinary Professional Rea
 
 <!doctype html>
 <html lang="en" class="scroll-smooth">
-	<!-- Matomo -->
-	<script>
-	  var _paq = window._paq = window._paq || [];
-	  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-	  _paq.push(['trackPageView']);
-	  _paq.push(['enableLinkTracking']);
-	  (function() {
-		var u="https://aimpro.matomo.cloud/";
-		_paq.push(['setTrackerUrl', u+'matomo.php']);
-		_paq.push(['setSiteId', '1']);
-		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-		g.async=true; g.src='https://cdn.matomo.cloud/aimpro.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-	  })();
-	</script>
-	<!-- End Matomo Code -->
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
@@ -36,6 +21,21 @@ const { title, description = "AI Literacy for Multidisciplinary Professional Rea
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 		<title>{title}</title>
+			<!-- Matomo -->
+		<script>
+		  var _paq = window._paq = window._paq || [];
+		  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		  _paq.push(['trackPageView']);
+		  _paq.push(['enableLinkTracking']);
+		  (function() {
+			var u="https://aimpro.matomo.cloud/";
+			_paq.push(['setTrackerUrl', u+'matomo.php']);
+			_paq.push(['setSiteId', '1']);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.async=true; g.src='https://cdn.matomo.cloud/aimpro.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+		  })();
+		</script>
+		<!-- End Matomo Code -->
 	</head>
 	<body class="font-inter text-slate-800 bg-white antialiased">
 		<slot />
