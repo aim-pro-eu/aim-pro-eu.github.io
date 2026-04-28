@@ -44,4 +44,29 @@ Hosted by the project coordinator, the University of L'Aquila (UDA), AIM-PRO’s
 
 Under the guidance of Prof. Antonio Bucchiarone (UDA), AIM-PRO’s Scientific Coordinator, the AIM-PRO team took turns in presenting the project’s vision, goals and roadmap, sparking enthusiasm and collaboration among all on-site participants.
 
-![](/images/uploads/img_5959.jpg "AIM-PRO kick-off meeting at L’Aquila. ")
+![AIM-PRO kick-off meeting at L’Aquila. ](/images/uploads/img_5959.jpg "AIM-PRO kick-off meeting at L’Aquila. ")
+
+#### Day 1: Laying the Foundations 
+
+***Understanding Needs with Empathy Map*** 
+
+The University of Pisa (UNIPI) led a dynamic Needs Analysis Workshop, adopting the Living Lab philosophy and a structured Empathy Map methodology. Together we explored the needs of Higher Education, VETs and SMEs, uncovering cross-cutting needs as follows: 
+
+* Clear and non-technical explanations of AI concepts 
+* Modular and time-efficient learning pathways 
+* Structured ethical guidelines and certification mechanisms 
+* Sustainability integration 
+
+These insights will continue to guide our discussions and developments throughout the project, ensuring that AIM-PRO delivers tailored, practical and impactful solutions for all stakeholders. 
+
+A special thank you to Filippo Chiarello, Diana Domenichini, and Alessandra Serra from UNIPI for their outstanding leadership in this Workshop, setting a strong foundation for our collaborative journey ahead! 
+
+***From Ideas to Action with the Metamodel*** 
+
+In this session, Mälardalens University (MDU) and UDA demonstrated how stakeholder requirements will be transformed into a shared domain metamodel using the cloud-based Jjodel platform. This innovative approach integrates: 
+
+* AI literacy competencies 
+* Sustainability indicators 
+* Personalisation mechanisms 
+
+The metamodel will serve as the backbone of AIM-PRO, ensuring consistency and coherence across all tools and platforms. We extend our gratitude to Antonio Cicchetti (MDU) and Alfonso Pierantonio (UDA) for expertly guiding this session.
