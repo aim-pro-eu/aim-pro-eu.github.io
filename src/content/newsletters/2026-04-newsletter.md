@@ -1,7 +1,7 @@
 ---
 title: "AIM-PRO Officially Launched: Building AI Literacy Across Europe"
 date: 2026-04-28T10:45:00.000+02:00
-coverImage: /images/uploads/aim-pro-newsletter-cover-small.png
+coverImage: /images/uploads/aim-pro-newsletter-cover.png
 ---
 ### Welcome to the debut issue of the AIM-PRO newsletter! 
 
