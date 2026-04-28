@@ -153,4 +153,4 @@ Hosted by the University of Rennes (DiverSE / IRISA team), the second in-person 
 
 Further events over the project lifetime include 4 consortium webinars, in-person dissemination events in each of the 9 participating countries, and a final blended international conference. Stay updated on our progress, stories and upcoming events by subscribing to our quarterly [newsletter](https://aim-pro.eu/newsletters/) and following us on [LinkedIn](https://www.linkedin.com/company/aim-pro-eu), [YouTube](https://www.youtube.com/@AIM-PRO-EU) and [Zenodo](https://zenodo.org/communities/aim-pro-eu/). 
 
-That’s it for our debut newsletter. Thank you for reading!
+That's it for our debut newsletter. Thank you for reading! We'll be back in July 2026 with next updates and stories.
