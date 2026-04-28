@@ -141,7 +141,7 @@ Nuria Anguera from Informatics Europe (IE) unveiled the unified visual identity,
 
 We are deeply grateful for the dedication and expertise that all partners brought to the kick-off meeting, setting a strong foundation for AIM-PRO’s success. 
 
-As we embark on this journey, we look forward to the inspiring collaborations and milestones ahead. **Stay connected and discover AIM-PRO at a glance: download our project flyer below**, highlighting our objectives, activities and diverse communities we aim to empower.  
+As we embark on this journey, we look forward to the inspiring collaborations and milestones ahead. **Stay connected and discover AIM-PRO at a glance: [download](https://aim-pro.eu/images/uploads/aim-pro-flyer.jpg) our project flyer below**, highlighting our objectives, activities and diverse communities we aim to empower.  
 
 <ResponsiveImage src="/images/uploads/aim-pro-flyer.jpg" alt="AIM-PRO Flyer." height="20" />
 
