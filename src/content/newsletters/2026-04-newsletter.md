@@ -85,13 +85,25 @@ The metamodel will serve as the backbone of AIM-PRO, ensuring consistency and co
 
 Andrea Vázquez Ingelmo from the University of Salamanca (USAL) continued in a new session, presenting USAL’s metamodel synthesising DigComp, UNESCO AI frameworks, GreenComp, and EntreComp frameworks into a unified structure. USAL also introduced the graph-based Open Educational Resources (OER) database architecture for the Project’s Work Package 3, focusing on building and providing access to AI literacy resources. This approach enables semantic navigation, competency-gap detection, and compatibility with AI recommendation agents developed in the Project’s Work Package 4, which aims to support educators and learners with personalised AI literacy tools. 
 
+![Andrea Vázquez Ingelmo (USAL) shares insights on integrating AI frameworks into AIM-PRO’s unified structure. ](/images/uploads/usal-aim-pro.jpg "Andrea Vázquez Ingelmo (USAL) shares insights on integrating AI frameworks into AIM-PRO’s unified structure. ")
+
+*Andrea Vázquez Ingelmo (USAL) shares insights on integrating AI frameworks into AIM-PRO’s unified structure.* 
+
 ***Balancing Innovation and Environmental Responsibility***
 
-The University of Rennes (REN) brought a fresh perspective to the next session with their work on green computing, assessment and personalization. Olivier Barais (DiverSE/IRISA, REN) virtually presented their work, which embeds measurable sustainability indicators, energy consumption, CO2 emissions, hardware resource usage, directly into the AIM-PRO metamodel. The team also introduced a recommender system for sustainable AI literacy pathways, balancing AI performance, environmental footprint, and contextual relevance. 
+The University of Rennes (REN) brought a fresh perspective to the next session with their work on green computing, assessment and personalization. Olivier Barais (DiverSE/IRISA, REN) presented virtually their work, which embeds measurable sustainability indicators, energy consumption, CO2 emissions, hardware resource usage, directly into the AIM-PRO metamodel. The team also introduced a recommender system for sustainable AI literacy pathways, balancing AI performance, environmental footprint, and contextual relevance. 
+
+![Quentin Perez (IRISA, REN) presents REN’s role in AIM-PRO project. ](/images/uploads/aim-pro-irisa.jpg "Quentin Perez (IRISA, REN) presents REN’s role in AIM-PRO project. ")
+
+*Quentin Perez (IRISA, REN) presents REN’s role in AIM-PRO project.* 
 
 ***Developing Evidence-based Pedagogy with AI*** 
 
 The Vrije Universiteit Brussel (VUB), represented by Jo Tondeur, presented VUB’s evidence-based approach using the Intelligent Synthesis of Qualitative Data (iSQD) methodology, drawing from a systematic review of 600+ studies. Three key strategy clusters were identified: familiarisation through hands-on exploration, collaborative design with AI as co-creator, and authentic practice cycles in realistic professional scenarios. 
+
+![Sarah Howard (left) from the University of Leeds and Jo Tondeur (right) from VUB, discuss evidence-based pedagogy strategies for AIM-PRO. ](/images/uploads/aim-pro-pedagogical-requirements.jpg "Sarah Howard (left) from the University of Leeds and Jo Tondeur (right) from VUB, discuss evidence-based pedagogy strategies for AIM-PRO. ")
+
+*Sarah Howard (left) from the University of Leeds and Jo Tondeur (right) from VUB, discuss evidence-based pedagogy strategies for AIM-PRO.* 
 
 ***Empowering Learners with the AIM-PRO Certification Framework*** 
 
@@ -121,11 +133,17 @@ Gianluca Schiavo from FBK, Maaike Harbers and Isabella Voskuil from Rotterdam Un
 
 Nuria Anguera from Informatics Europe (IE) unveiled the unified visual identity, chosen through a consortium survey, along with a collaborative communication plan for the Project. Highlights include a GitHub-based collaborative website infrastructure, and a communication plan with rotating LinkedIn posts contributed by all project partners and quarterly newsletters throughout the project’s period. This cohesive approach ensures that AIM-PRO’s message is clear, consistent and far-reaching, setting the stage for successful collaboration and outreach. 
 
+![Nuria Anguera (standing, right) from IE presented AIM-PRO’s dissemination strategy in shaping the Project’s outreach and impact. ](/images/uploads/aim-pro-ie.jpg "Nuria Anguera (standing, right) from IE presented AIM-PRO’s dissemination strategy in shaping the Project’s outreach and impact. ")
+
+*Nuria Anguera (standing, right) from IE presented AIM-PRO’s dissemination strategy in shaping the Project’s outreach and impact.* 
+
 ***Looking Ahead: AIM-PRO at a Glance*** 
 
 We are deeply grateful for the dedication and expertise that all partners brought to the kick-off meeting, setting a strong foundation for AIM-PRO’s success. 
 
 As we embark on this journey, we look forward to the inspiring collaborations and milestones ahead. **Stay connected and discover AIM-PRO at a glance: download our project flyer below**, highlighting our objectives, activities and diverse communities we aim to empower.  
+
+![]()
 
 Join us on this impactful journey to advance AI literacy across Europe! 
 
