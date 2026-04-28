@@ -143,7 +143,7 @@ We are deeply grateful for the dedication and expertise that all partners brough
 
 As we embark on this journey, we look forward to the inspiring collaborations and milestones ahead. **Stay connected and discover AIM-PRO at a glance: [download](https://aim-pro.eu/images/uploads/aim-pro-flyer.jpg) our project flyer below**, highlighting our objectives, activities and diverse communities we aim to empower.  
 
-<ResponsiveImage src="/images/uploads/aim-pro-flyer.jpg" alt="AIM-PRO Flyer." height="20" />
+<ResponsiveImage src="/images/uploads/aim-pro-flyer.jpg" alt="AIM-PRO Flyer." width="20" height="20" />
 
 Join us on this impactful journey to advance AI literacy across Europe! 
 
