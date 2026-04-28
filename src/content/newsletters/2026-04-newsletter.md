@@ -1,7 +1,7 @@
 ---
 title: "AIM-PRO Officially Launched: Building AI Literacy Across Europe"
 date: 2026-04-28T10:45:00.000+02:00
-coverImage: /images/uploads/img_5959.jpg
+coverImage: ""
 ---
 ### Welcome to the debut issue of the AIM-PRO newsletter! 
 
@@ -123,7 +123,7 @@ Join us on this impactful journey to advance AI literacy across Europe! 
 
 ### Upcoming Events: Second Consortium Meeting and Webinars
 
-Hosted by the University of Rennes (DiverSE / IRISA team), the second in-person consortium meeting will take place on 20-21 October 2026, serving as the first major operational checkpoint for AIM-PRO. Partners will review the AIM-PRO Conceptual Model defined in Work Package 2, consolidate the Project Work Package 3 & 4’s Knowledge Graph architecture alignment, and advance metamodeling activities, covering AI literacy learning scenarios, competencies, and green computing principles.  
+Hosted by the University of Rennes (DiverSE / IRISA team), the second in-person consortium meeting will take place on 20-21 October 2026, serving as the first major operational checkpoint for AIM-PRO. Partners will review the AIM-PRO Conceptual Model defined in Project's Work Package 2, consolidate the Project Work Package 3 & 4’s Knowledge Graph architecture alignment, and advance metamodeling activities, covering AI literacy learning scenarios, competencies, and green computing principles.  
 
 Further events over the project lifetime include 4 consortium webinars, in-person dissemination events in each of the 9 participating countries, and a final blended international conference. Stay updated on our progress, stories and upcoming events by subscribing to our quarterly [newsletter](https://aim-pro.eu/newsletters/) and following us on [LinkedIn](https://www.linkedin.com/company/aim-pro-eu), [YouTube](https://www.youtube.com/@AIM-PRO-EU) and [Zenodo](https://zenodo.org/communities/aim-pro-eu/). 
 
