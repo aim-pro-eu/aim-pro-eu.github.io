@@ -1,7 +1,7 @@
 ---
 title: "AIM-PRO Officially Launched: Building AI Literacy Across Europe"
 date: 2026-04-28T10:45:00.000+02:00
-coverImage: /images/uploads/aim-pro-newsletter-cover.png
+coverImage: /images/uploads/aim-pro-newsletter-inner-cover.png
 ---
 ### Welcome to the debut issue of the AIM-PRO newsletter! 
 
@@ -59,7 +59,7 @@ The University of Pisa (UNIPI) led a dynamic Needs Analysis Workshop, adopting t
 * Structured ethical guidelines and certification mechanisms 
 * Sustainability integration 
 
-![Learning about the empathy map methodology during the Needs Analysis Workshop led by UNIPI. ]( "Learning about the empathy map methodology during the Needs Analysis Workshop led by UNIPI. ")
+![Learning about the empathy map methodology during the Needs Analysis Workshop led by UNIPI. ](/images/uploads/unipi-empathy-map.jpg "Learning about the empathy map methodology during the Needs Analysis Workshop led by UNIPI. ")
 
 *Learning about the empathy map methodology during the Needs Analysis Workshop led by UNIPI.* 
 
