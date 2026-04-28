@@ -59,6 +59,8 @@ The University of Pisa (UNIPI) led a dynamic Needs Analysis Workshop, adopting t
 * Structured ethical guidelines and certification mechanisms 
 * Sustainability integration 
 
+![]()
+
 These insights will continue to guide our discussions and developments throughout the project, ensuring that AIM-PRO delivers tailored, practical and impactful solutions for all stakeholders. 
 
 A special thank you to Filippo Chiarello, Diana Domenichini, and Alessandra Serra from UNIPI for their outstanding leadership in this Workshop, setting a strong foundation for our collaborative journey ahead! 
