@@ -46,7 +46,9 @@ Under the guidance of Prof. Antonio Bucchiarone (UDA), AIM-PRO’s Scientific Co
 
 ![AIM-PRO kick-off meeting at L’Aquila. ](/images/uploads/img_5959.jpg "AIM-PRO kick-off meeting at L’Aquila. ")
 
-#### Day 1: Laying the Foundations 
+`AIM-PRO kick-off meeting at L’Aquila. `
+
+#### Day 1: Laying the Foundations
 
 ***Understanding Needs with Empathy Map*** 
 
@@ -69,4 +71,10 @@ In this session, Mälardalens University (MDU) and UDA demonstrated how stakehol
 * Sustainability indicators 
 * Personalisation mechanisms 
 
-The metamodel will serve as the backbone of AIM-PRO, ensuring consistency and coherence across all tools and platforms. We extend our gratitude to Antonio Cicchetti (MDU) and Alfonso Pierantonio (UDA) for expertly guiding this session.
+The metamodel will serve as the backbone of AIM-PRO, ensuring consistency and coherence across all tools and platforms. We extend our gratitude to Antonio Cicchetti (MDU) and Alfonso Pierantonio (UDA) for expertly guiding this session. 
+
+***Unifying Models for AI Literacy***  
+
+Andrea Vázquez Ingelmo from the University of Salamanca (USAL) continued in a new session, presenting USAL’s metamodel synthesising DigComp, UNESCO AI frameworks, GreenComp, and EntreComp frameworks into a unified structure. USAL also introduced the graph-based Open Educational Resources (OER) database architecture for the Project’s Work Package 3, focusing on building and providing access to AI literacy resources. This approach enables semantic navigation, competency-gap detection, and compatibility with AI recommendation agents developed in the Project’s Work Package 4, which aims to support educators and learners with personalised AI literacy tools. 
+
+***Balancing Innovation and Environmental Responsibility***
