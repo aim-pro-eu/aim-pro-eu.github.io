@@ -59,7 +59,7 @@ The University of Pisa (UNIPI) led a dynamic Needs Analysis Workshop, adopting t
 * Structured ethical guidelines and certification mechanisms 
 * Sustainability integration 
 
-![Learning about the empathy map methodology during the Needs Analysis Workshop led by UNIPI. ](public/images/uploads/aim-pro-empathy-map.png "Learning about the empathy map methodology during the Needs Analysis Workshop led by UNIPI. ")
+![Learning about the empathy map methodology during the Needs Analysis Workshop led by UNIPI. ]( "Learning about the empathy map methodology during the Needs Analysis Workshop led by UNIPI. ")
 
 *Learning about the empathy map methodology during the Needs Analysis Workshop led by UNIPI.* 
 
