@@ -77,6 +77,10 @@ In this session, Mälardalens University (MDU) and UDA demonstrated how stakehol
 
 The metamodel will serve as the backbone of AIM-PRO, ensuring consistency and coherence across all tools and platforms. We extend our gratitude to Antonio Cicchetti (MDU) and Alfonso Pierantonio (UDA) for expertly guiding this session. 
 
+![Alfonso Pierantonio (UDA) presents the Jjodel platform at the meeting.](/images/uploads/uda-jjodel.jpg "Alfonso Pierantonio (UDA) presents the Jjodel platform at the meeting.")
+
+*Alfonso Pierantonio (UDA) presents the Jjodel platform at the meeting.*
+
 ***Unifying Models for AI Literacy***  
 
 Andrea Vázquez Ingelmo from the University of Salamanca (USAL) continued in a new session, presenting USAL’s metamodel synthesising DigComp, UNESCO AI frameworks, GreenComp, and EntreComp frameworks into a unified structure. USAL also introduced the graph-based Open Educational Resources (OER) database architecture for the Project’s Work Package 3, focusing on building and providing access to AI literacy resources. This approach enables semantic navigation, competency-gap detection, and compatibility with AI recommendation agents developed in the Project’s Work Package 4, which aims to support educators and learners with personalised AI literacy tools. 
