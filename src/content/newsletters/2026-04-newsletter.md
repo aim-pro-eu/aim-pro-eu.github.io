@@ -46,7 +46,7 @@ Under the guidance of Prof. Antonio Bucchiarone (UDA), AIM-PRO’s Scientific Co
 
 ![AIM-PRO kick-off meeting at L’Aquila. ](/images/uploads/img_5959.jpg "AIM-PRO kick-off meeting at L’Aquila. ")
 
-AIM-PRO kick-off meeting at L’Aquila. 
+*AIM-PRO kick-off meeting at L’Aquila.* 
 
 #### Day 1: Laying the Foundations
 
