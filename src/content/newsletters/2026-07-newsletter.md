@@ -165,8 +165,8 @@ At the end of the learning path, Elena is expected to have achieved a number of 
 | role          | Role in the organisation          | HR Director                                                             |
 | attitude      | Attitude towards AI               | Cautious                                                                |
 | self-efficacy | Self-efficacy with AI             | Low                                                                     |
-| key concerns  | Key concerns about AI use         | Fairness, accountability, employee trust, <br>tech gap marginalisation  |
-| motivations   | Motivations for using AI          | Improving efficiency, Responsible integration,<br>Duty of care          |
+| key concerns  | Key concerns about AI use         | Fairness, accountability, employee trust,  tech gap marginalisation  |
+| motivations   | Motivations for using AI          | Improving efficiency, Responsible integration, Duty of care          |
 | experience    | Previous experience with AI tools | Limited hands-on experience with AI-tools                               |
 
 \*\**
