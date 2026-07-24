@@ -18,7 +18,7 @@ AIM-PRO-related research with adult learners clearly shows this dual view. Adult
 
 Congratulations to Tian Zhou on winning the 'Outstanding Poster Award' at EdMedia2026! 
 
-![Tian Zhou wins the 'Outstanding Poster Award' at EdMedia2026](public/images/uploads/edmedia-award-tian-zhou.png)
+![Tian Zhou wins the 'Outstanding Poster Award' at EdMedia2026](/images/uploads/edmedia-award-tian-zhou.png)
 
 Adult learners are often an overlooked group in AI competency debates. Zhou’s AIM-PRO-related poster, recognised with an Outstanding Poster Award at EdMedia, shows why their perceptions matter: learners see AI as useful, but also raise important questions about trust, responsibility and control. 
 
@@ -30,9 +30,13 @@ AI competence does not develop through a single method, tool or fixed pathway. L
 
 This is where AIM-PRO draws on [SQD2](https://www.researchgate.net/publication/388791045_Preparing_preservice_teachers_to_teach_with_digital_technologies_An_update_of_effective_SQD-strategies), a research-based framework for developing digital competencies. SQD2 approaches competence development across multiple levels, from the learner and the learning activity to the wider organisational and institutional context. For AIM-PRO, this means that meaningful technology use requires more than technical instruction. Learners need structured opportunities for exploration, reflection, design, authentic practice, feedback and support. The following visual illustrates how these elements come together across different levels, from individual learning activities to wider institutional context: 
 
+![](/images/uploads/sqd-model.png)
+
 Generative AI is no ordinary digital tool. It can produce and adapt content, suggest solutions, support design processes and participate in instructional decision-making. This creates new opportunities for learning and teaching. At the same time, generative AI can produce inaccurate, incomplete or biased outputs. It can also make responsibility less clear: when a system suggests an answer, a design choice or a decision, users still need to judge what is appropriate, reliable and ethically acceptable. 
 
 **This is why AIM-PRO builds on research into Intelligent SQD, or iSQD.** Based on a meta-aggregation of qualitative studies, iSQD extends the SQD2 foundation by examining which training strategies become specific, different or more important when the focus shifts from digital competence to AI competence. The following image highlights three iSQD subcategories: 
+
+![](/images/uploads/isqd.png)
 
 Linked to three real-life examples, this could mean:  
 
@@ -49,6 +53,8 @@ A university lecturer, a VET trainer and an SME employee may all need AI compete
 **Meet Our Hypothetical Persona Dr. Clara:** 
 
 Dr. Clara already uses digital tools in teaching but still feels uncertain about how generative AI should be integrated into learning activities. She sees opportunities for faster feedback, content generation, student support and instructional design. At the same time, she worries about academic integrity, the reliability of AI-generated output, student over-reliance, bias, copyright and the changing role of the teacher. 
+
+![](/images/uploads/clara.png)
 
 Starting from personas, AIM-PRO will investigate real user needs and examine whether training strategies transfer meaningfully across different educational and professional contexts. This validation process will help refine the personas and help ensure that AIM-PRO’s outputs are grounded in both research and practice. 
 
