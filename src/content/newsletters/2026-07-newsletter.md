@@ -146,20 +146,6 @@ In order to explain the domain conceptualisation, we propose a running example/s
 
 First of all, we need to represent contextual information about the scenario that is relevant for AI literacy learning. In the case of Elena, we encode such information as: 
 
-Based on the contextual information, it is possible to derive some overall strategic decisions about potential AI Literacy training, as described in the following. 
-
-**AI Training Strategy:**  
-
-1. Elena has low AI self-efficacy and confidence, so AI Familiarisation and Affective Support are needed early on to build her confidence and reduce anxiety. 
-2. Elena has limited hands-on experience with AI tools, so building a strong baseline knowledge is essential before moving to practical application. 
-3. Given her concerns about fairness and accountability, it's important to include training on ethical considerations and bias mitigation strategies. 
-4. The context is Train-the-Trainer in a traditional SME setting (HR Screening), so we are in presence of a high-risk context, where the AI is used for making decisions that can significantly impact people's lives (hiring), and where the workforce is heterogeneous with varying levels of digital competence. Therefore, a comprehensive training strategy that addresses role boundaries, collaborative sensemaking, and ongoing support is crucial to ensure responsible and effective AI use. 
-
-The mentioned decisions are in turn encoded as follows: 
-
-The information about the learning context and the derived strategies for AI literacy learning allow to generate a learning path composed of a number of steps and corresponding goals. These steps are conceptually linked with iSQD (Skills, Qualifications, Development) strategies. 
-
-At the end of the learning path, Elena is expected to have achieved a number of competencies with corresponding proficiencies. A summary of such an outcome is provided in the following: 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -171,9 +157,9 @@ At the end of the learning path, Elena is expected to have achieved a number of 
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-0pky"><strong>Field</th>
-    <th class="tg-0pky"><strong>Description</th>
-    <th class="tg-0pky"><strong>Value</th>
+    <th class="tg-0pky"><strong>Field</strong></th>
+    <th class="tg-0pky"><strong>Description</strong></th>
+    <th class="tg-0pky"><strong>Value</strong></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -207,6 +193,21 @@ At the end of the learning path, Elena is expected to have achieved a number of 
     <td class="tg-0pky">Limited hands-on experience with AI-tools</td>
   </tr>
 </tbody></table>
+
+Based on the contextual information, it is possible to derive some overall strategic decisions about potential AI Literacy training, as described in the following. 
+
+**AI Training Strategy:**  
+
+1. Elena has low AI self-efficacy and confidence, so AI Familiarisation and Affective Support are needed early on to build her confidence and reduce anxiety. 
+2. Elena has limited hands-on experience with AI tools, so building a strong baseline knowledge is essential before moving to practical application. 
+3. Given her concerns about fairness and accountability, it's important to include training on ethical considerations and bias mitigation strategies. 
+4. The context is Train-the-Trainer in a traditional SME setting (HR Screening), so we are in presence of a high-risk context, where the AI is used for making decisions that can significantly impact people's lives (hiring), and where the workforce is heterogeneous with varying levels of digital competence. Therefore, a comprehensive training strategy that addresses role boundaries, collaborative sensemaking, and ongoing support is crucial to ensure responsible and effective AI use. 
+
+The mentioned decisions are in turn encoded as follows: 
+
+The information about the learning context and the derived strategies for AI literacy learning allow to generate a learning path composed of a number of steps and corresponding goals. These steps are conceptually linked with iSQD (Skills, Qualifications, Development) strategies. 
+
+At the end of the learning path, Elena is expected to have achieved a number of competencies with corresponding proficiencies. A summary of such an outcome is provided in the following: 
 
 That’s it for the second issue of our newsletter. Stay updated on our progress, results and upcoming events by visiting our [website](https://aim-pro.eu/publications/), subscribing to our quarterly [newsletter](https://aim-pro.eu/newsletters/), and following us on [LinkedIn](https://www.linkedin.com/company/aim-pro-eu), [YouTube](https://www.youtube.com/@AIM-PRO-EU) and [Zenodo](https://zenodo.org/communities/aim-pro-eu/). 
 
