@@ -150,28 +150,23 @@ First of all, we need to represent contextual information about the scenario tha
 .tg {
   border-collapse: collapse;
   border-spacing: 0;
+  border: 1px solid black;
 }
-.tg td {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
-  font-size: 14px;
-  overflow: hidden;
-  padding: 10px 5px;
-  word-break: normal;
-}
+
+.tg td,
 .tg th {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid black;
   font-size: 14px;
-  font-weight: normal;
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;
 }
+
+.tg th {
+  font-weight: normal;
+}
+
 .tg .tg-0pky {
-  border-color: inherit;
   text-align: left;
   vertical-align: top;
 }
@@ -204,12 +199,12 @@ First of all, we need to represent contextual information about the scenario tha
     <tr>
       <td class="tg-0pky">key concerns</td>
       <td class="tg-0pky">Key concerns about AI use</td>
-      <td class="tg-0pky">Fairness, accountability, employee trust,<br>tech gap marginalisation</td>
+      <td class="tg-0pky">Fairness, accountability, employee trust, tech gap marginalisation</td>
     </tr>
     <tr>
       <td class="tg-0pky">motivations</td>
       <td class="tg-0pky">Motivations for using AI</td>
-      <td class="tg-0pky">Improving efficiency, Responsible integration,<br>Duty of care</td>
+      <td class="tg-0pky">Improving efficiency, Responsible integration, Duty of care</td>
     </tr>
     <tr>
       <td class="tg-0pky">experience</td>
