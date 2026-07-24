@@ -146,53 +146,78 @@ In order to explain the domain conceptualisation, we propose a running example/s
 
 First of all, we need to represent contextual information about the scenario that is relevant for AI literacy learning. In the case of Elena, we encode such information as: 
 
-
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
 </style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-0pky"><strong>Field</strong></th>
-    <th class="tg-0pky"><strong>Description</strong></th>
-    <th class="tg-0pky"><strong>Value</strong></th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky">role</td>
-    <td class="tg-0pky">Role in the organisation</td>
-    <td class="tg-0pky">HR Director</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">attitude</td>
-    <td class="tg-0pky">Attitude towards AI</td>
-    <td class="tg-0pky">Cautious</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">self-efficacy</td>
-    <td class="tg-0pky">Self-efficacy with AI</td>
-    <td class="tg-0pky">Low</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">key concerns</td>
-    <td class="tg-0pky">Key concerns about AI use</td>
-    <td class="tg-0pky">Fairness, accountability, employee trust, <br>tech gap marginalisation </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">motivations</td>
-    <td class="tg-0pky">Motivations for using AI</td>
-    <td class="tg-0pky">Improving efficiency, Responsible integration,<br>Duty of care</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">experience</td>
-    <td class="tg-0pky">Previous experience with AI tools</td>
-    <td class="tg-0pky">Limited hands-on experience with AI-tools</td>
-  </tr>
-</tbody></table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-0pky"><strong>Field</strong></th>
+      <th class="tg-0pky"><strong>Description</strong></th>
+      <th class="tg-0pky"><strong>Value</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-0pky">role</td>
+      <td class="tg-0pky">Role in the organisation</td>
+      <td class="tg-0pky">HR Director</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky">attitude</td>
+      <td class="tg-0pky">Attitude towards AI</td>
+      <td class="tg-0pky">Cautious</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky">self-efficacy</td>
+      <td class="tg-0pky">Self-efficacy with AI</td>
+      <td class="tg-0pky">Low</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky">key concerns</td>
+      <td class="tg-0pky">Key concerns about AI use</td>
+      <td class="tg-0pky">Fairness, accountability, employee trust,<br>tech gap marginalisation</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky">motivations</td>
+      <td class="tg-0pky">Motivations for using AI</td>
+      <td class="tg-0pky">Improving efficiency, Responsible integration,<br>Duty of care</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky">experience</td>
+      <td class="tg-0pky">Previous experience with AI tools</td>
+      <td class="tg-0pky">Limited hands-on experience with AI tools</td>
+    </tr>
+  </tbody>
+</table>
 
 Based on the contextual information, it is possible to derive some overall strategic decisions about potential AI Literacy training, as described in the following. 
 
