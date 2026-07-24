@@ -160,16 +160,53 @@ The mentioned decisions are in turn encoded as follows: 
 The information about the learning context and the derived strategies for AI literacy learning allow to generate a learning path composed of a number of steps and corresponding goals. These steps are conceptually linked with iSQD (Skills, Qualifications, Development) strategies. 
 
 At the end of the learning path, Elena is expected to have achieved a number of competencies with corresponding proficiencies. A summary of such an outcome is provided in the following: 
-| Field         | Description                       | Value                                                                   |
-|---------------|-----------------------------------|-------------------------------------------------------------------------|
-| role          | Role in the organisation          | HR Director                                                             |
-| attitude      | Attitude towards AI               | Cautious                                                                |
-| self-efficacy | Self-efficacy with AI             | Low                                                                     |
-| key concerns  | Key concerns about AI use         | Fairness, accountability, employee trust,  tech gap marginalisation  |
-| motivations   | Motivations for using AI          | Improving efficiency, Responsible integration, Duty of care          |
-| experience    | Previous experience with AI tools | Limited hands-on experience with AI-tools                               |
 
-\*\**
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky"><strong>Field</th>
+    <th class="tg-0pky"><strong>Description</th>
+    <th class="tg-0pky"><strong>Value</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">role</td>
+    <td class="tg-0pky">Role in the organisation</td>
+    <td class="tg-0pky">HR Director</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">attitude</td>
+    <td class="tg-0pky">Attitude towards AI</td>
+    <td class="tg-0pky">Cautious</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">self-efficacy</td>
+    <td class="tg-0pky">Self-efficacy with AI</td>
+    <td class="tg-0pky">Low</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">key concerns</td>
+    <td class="tg-0pky">Key concerns about AI use</td>
+    <td class="tg-0pky">Fairness, accountability, employee trust, <br>tech gap marginalisation </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">motivations</td>
+    <td class="tg-0pky">Motivations for using AI</td>
+    <td class="tg-0pky">Improving efficiency, Responsible integration,<br>Duty of care</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">experience</td>
+    <td class="tg-0pky">Previous experience with AI tools</td>
+    <td class="tg-0pky">Limited hands-on experience with AI-tools</td>
+  </tr>
+</tbody></table>
 
 That’s it for the second issue of our newsletter. Stay updated on our progress, results and upcoming events by visiting our [website](https://aim-pro.eu/publications/), subscribing to our quarterly [newsletter](https://aim-pro.eu/newsletters/), and following us on [LinkedIn](https://www.linkedin.com/company/aim-pro-eu), [YouTube](https://www.youtube.com/@AIM-PRO-EU) and [Zenodo](https://zenodo.org/communities/aim-pro-eu/). 
 
