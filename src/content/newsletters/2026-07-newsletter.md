@@ -224,6 +224,7 @@ Based on the contextual information, it is possible to derive some overall strat
 4. The context is Train-the-Trainer in a traditional SME setting (HR Screening), so we are in presence of a high-risk context, where the AI is used for making decisions that can significantly impact people's lives (hiring), and where the workforce is heterogeneous with varying levels of digital competence. Therefore, a comprehensive training strategy that addresses role boundaries, collaborative sensemaking, and ongoing support is crucial to ensure responsible and effective AI use. 
 
 The mentioned decisions are in turn encoded as follows: 
+
 <style type="text/css">
 .tg {
   border-collapse: collapse !important;
@@ -516,6 +517,8 @@ At the end of the learning path, Elena is expected to have achieved a number of 
     </tr>
   </tbody>
 </table>
+
+\----
 
 That’s it for the second issue of our newsletter. Stay updated on our progress, results and upcoming events by visiting our [website](https://aim-pro.eu/publications/), subscribing to our quarterly [newsletter](https://aim-pro.eu/newsletters/), and following us on [LinkedIn](https://www.linkedin.com/company/aim-pro-eu), [YouTube](https://www.youtube.com/@AIM-PRO-EU) and [Zenodo](https://zenodo.org/communities/aim-pro-eu/). 
 
