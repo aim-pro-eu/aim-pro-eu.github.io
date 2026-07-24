@@ -1,6 +1,7 @@
 ---
 title: "Building AI Literacy: From Learners to Frameworks in AIM-PRO"
 date: 2026-07-24T10:25:00.000+02:00
+coverImage: public/images/uploads/aim-pro-newsletter-issue2.png
 ---
 ### Welcome to the second issue of the AIM-PRO newsletter!
 
