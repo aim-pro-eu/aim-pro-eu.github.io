@@ -289,6 +289,87 @@ The mentioned decisions are in turn encoded as follows: 
 
 The information about the learning context and the derived strategies for AI literacy learning allow to generate a learning path composed of a number of steps and corresponding goals. These steps are conceptually linked with iSQD (Skills, Qualifications, Development) strategies. 
 
+<style type="text/css">
+.tg {
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  width: auto;
+}
+
+.tg th,
+.tg td {
+  border: 1px solid black !important;
+  font-size: 14px;
+  padding: 10px 5px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tg th {
+  font-weight: bold;
+}
+
+/* Force bottom border */
+.tg tbody tr:last-child td {
+  border-bottom: 1px solid black !important;
+}
+</style>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th>Step</th>
+      <th>iSQD Strategy</th>
+      <th>Description</th>
+      <th>Goal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>S1 Familiarization</td>
+      <td>Build AI proficiency by blending structured, scenario-based guidance with progressive open exploration.</td>
+      <td>Build a shared understanding of the AI tool.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>S5 Affective Dimension</td>
+      <td>AI training must account for the learner's emotional state, attitudes, and self-belief to be effective.</td>
+      <td>Surface concerns about fairness, trust and job impact.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>S2 Reflective Practice</td>
+      <td>AI training requires critical reflection on the tool's potential and limitations within a professional context.</td>
+      <td>Define boundaries, responsibilities and responsible-use rules.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>S4 Authentic Experiences</td>
+      <td>AI proficiency requires hands-on practice and feedback to adapt the technology to a user's authentic professional environment.</td>
+      <td>Elena demonstrates the tool with anonymised examples.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>S3 Collaborative Design</td>
+      <td>Design AI materials through human collaboration and iterative experimentation.</td>
+      <td>Team jointly interprets outputs and co-creates rules.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>S4 Authentic Experiences</td>
+      <td></td>
+      <td>Team practises with safe examples.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>S2 Reflective Practice</td>
+      <td></td>
+      <td>Team evaluates outcomes and refines the process.</td>
+    </tr>
+  </tbody>
+</table>
+
 At the end of the learning path, Elena is expected to have achieved a number of competencies with corresponding proficiencies. A summary of such an outcome is provided in the following: 
 
 That’s it for the second issue of our newsletter. Stay updated on our progress, results and upcoming events by visiting our [website](https://aim-pro.eu/publications/), subscribing to our quarterly [newsletter](https://aim-pro.eu/newsletters/), and following us on [LinkedIn](https://www.linkedin.com/company/aim-pro-eu), [YouTube](https://www.youtube.com/@AIM-PRO-EU) and [Zenodo](https://zenodo.org/communities/aim-pro-eu/). 
