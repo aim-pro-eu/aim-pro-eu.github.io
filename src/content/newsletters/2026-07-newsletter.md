@@ -224,6 +224,68 @@ Based on the contextual information, it is possible to derive some overall strat
 4. The context is Train-the-Trainer in a traditional SME setting (HR Screening), so we are in presence of a high-risk context, where the AI is used for making decisions that can significantly impact people's lives (hiring), and where the workforce is heterogeneous with varying levels of digital competence. Therefore, a comprehensive training strategy that addresses role boundaries, collaborative sensemaking, and ongoing support is crucial to ensure responsible and effective AI use. 
 
 The mentioned decisions are in turn encoded as follows: 
+<style type="text/css">
+.tg {
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  width: auto;
+}
+
+.tg th,
+.tg td {
+  border: 1px solid black !important;
+  font-size: 14px;
+  padding: 10px 5px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tg th {
+  font-weight: bold;
+}
+
+/* Force bottom border */
+.tg tbody tr:last-child td {
+  border-bottom: 1px solid black !important;
+}
+</style>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sector</td>
+      <td>AIM-Pro Learning Environment (HE, SME, VET)</td>
+      <td>SME</td>
+    </tr>
+    <tr>
+      <td>risk</td>
+      <td>The level of impact of AI use on the organisation, higher for decision-making processes</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>competency goals</td>
+      <td>High-level learning goals</td>
+      <td>Develop foundational AI literacy, teach responsible AI use to the HR team, address ethical concerns, and create shared rules for AI use in hiring</td>
+    </tr>
+    <tr>
+      <td>learning mode</td>
+      <td>Training modality (Train-the-Trainer, individual, team)</td>
+      <td>Train-the-Trainer</td>
+    </tr>
+    <tr>
+      <td>agency</td>
+      <td>Who has the authority to make decisions about AI use?</td>
+      <td>Shared</td>
+    </tr>
+  </tbody>
+</table>
 
 The information about the learning context and the derived strategies for AI literacy learning allow to generate a learning path composed of a number of steps and corresponding goals. These steps are conceptually linked with iSQD (Skills, Qualifications, Development) strategies. 
 
