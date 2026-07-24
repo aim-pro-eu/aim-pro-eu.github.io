@@ -160,14 +160,14 @@ The mentioned decisions are in turn encoded as follows: 
 The information about the learning context and the derived strategies for AI literacy learning allow to generate a learning path composed of a number of steps and corresponding goals. These steps are conceptually linked with iSQD (Skills, Qualifications, Development) strategies. 
 
 At the end of the learning path, Elena is expected to have achieved a number of competencies with corresponding proficiencies. A summary of such an outcome is provided in the following: 
-| Field         | Description                       | Value                                                                |
-|---------------|-----------------------------------|----------------------------------------------------------------------|
-| role          | Role in the organisation          | HR Director                                                          |
-| attitude      | Attitude towards AI               | Cautious                                                             |
-| self-efficacy | Self-efficacy with AI             | Low                                                                  |
-| key concerns  | Key concerns about AI use         | Fairness, accountability, employee trust,  tech gap marginalisation  |
-| motivations   | Motivations for using AI          | Improving efficiency, Responsible integration, Duty of care          |
-| experience    | Previous experience with AI tools | Limited hands-on experience with AI tools                            |
+| Field         | Description                       | Value                                                                   |
+|---------------|-----------------------------------|-------------------------------------------------------------------------|
+| role          | Role in the organisation          | HR Director                                                             |
+| attitude      | Attitude towards AI               | Cautious                                                                |
+| self-efficacy | Self-efficacy with AI             | Low                                                                     |
+| key concerns  | Key concerns about AI use         | Fairness, accountability, employee trust, <br>tech gap marginalisation  |
+| motivations   | Motivations for using AI          | Improving efficiency, Responsible integration,<br>Duty of care          |
+| experience    | Previous experience with AI tools | Limited hands-on experience with AI-tools                               |
 
 \*\**
 
