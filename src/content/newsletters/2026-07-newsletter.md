@@ -148,68 +148,68 @@ First of all, we need to represent contextual information about the scenario tha
 
 <style type="text/css">
 .tg {
-  border-collapse: collapse;
-  border-spacing: 0;
-  border: 1px solid black;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  width: auto;
 }
 
-.tg td,
-.tg th {
-  border: 1px solid black;
+.tg th,
+.tg td {
+  border: 1px solid black !important;
   font-size: 14px;
-  overflow: hidden;
   padding: 10px 5px;
-  word-break: normal;
-}
-
-.tg th {
-  font-weight: normal;
-}
-
-.tg .tg-0pky {
   text-align: left;
   vertical-align: top;
+}
+
+.tg th {
+  font-weight: bold;
+}
+
+/* Force bottom border */
+.tg tbody tr:last-child td {
+  border-bottom: 1px solid black !important;
 }
 </style>
 
 <table class="tg">
   <thead>
     <tr>
-      <th class="tg-0pky"><strong>Field</strong></th>
-      <th class="tg-0pky"><strong>Description</strong></th>
-      <th class="tg-0pky"><strong>Value</strong></th>
+      <th>Field</th>
+      <th>Description</th>
+      <th>Value</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="tg-0pky">role</td>
-      <td class="tg-0pky">Role in the organisation</td>
-      <td class="tg-0pky">HR Director</td>
+      <td>role</td>
+      <td>Role in the organisation</td>
+      <td>HR Director</td>
     </tr>
     <tr>
-      <td class="tg-0pky">attitude</td>
-      <td class="tg-0pky">Attitude towards AI</td>
-      <td class="tg-0pky">Cautious</td>
+      <td>attitude</td>
+      <td>Attitude towards AI</td>
+      <td>Cautious</td>
     </tr>
     <tr>
-      <td class="tg-0pky">self-efficacy</td>
-      <td class="tg-0pky">Self-efficacy with AI</td>
-      <td class="tg-0pky">Low</td>
+      <td>self-efficacy</td>
+      <td>Self-efficacy with AI</td>
+      <td>Low</td>
     </tr>
     <tr>
-      <td class="tg-0pky">key concerns</td>
-      <td class="tg-0pky">Key concerns about AI use</td>
-      <td class="tg-0pky">Fairness, accountability, employee trust, tech gap marginalisation</td>
+      <td>key concerns</td>
+      <td>Key concerns about AI use</td>
+      <td>Fairness, accountability, employee trust, tech gap marginalisation</td>
     </tr>
     <tr>
-      <td class="tg-0pky">motivations</td>
-      <td class="tg-0pky">Motivations for using AI</td>
-      <td class="tg-0pky">Improving efficiency, Responsible integration, Duty of care</td>
+      <td>motivations</td>
+      <td>Motivations for using AI</td>
+      <td>Improving efficiency, Responsible integration, Duty of care</td>
     </tr>
     <tr>
-      <td class="tg-0pky">experience</td>
-      <td class="tg-0pky">Previous experience with AI tools</td>
-      <td class="tg-0pky">Limited hands-on experience with AI tools</td>
+      <td>experience</td>
+      <td>Previous experience with AI tools</td>
+      <td>Limited hands-on experience with AI tools</td>
     </tr>
   </tbody>
 </table>
