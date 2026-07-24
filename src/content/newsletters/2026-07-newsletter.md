@@ -518,7 +518,7 @@ At the end of the learning path, Elena is expected to have achieved a number of 
   </tbody>
 </table>
 
-\----
+\*\*\*\*\*\*
 
 That’s it for the second issue of our newsletter. Stay updated on our progress, results and upcoming events by visiting our [website](https://aim-pro.eu/publications/), subscribing to our quarterly [newsletter](https://aim-pro.eu/newsletters/), and following us on [LinkedIn](https://www.linkedin.com/company/aim-pro-eu), [YouTube](https://www.youtube.com/@AIM-PRO-EU) and [Zenodo](https://zenodo.org/communities/aim-pro-eu/). 
 
