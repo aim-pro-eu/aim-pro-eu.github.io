@@ -156,6 +156,21 @@ Based on the contextual information, it is possible to derive some overall strat
 4. The context is Train-the-Trainer in a traditional SME setting (HR Screening), so we are in presence of a high-risk context, where the AI is used for making decisions that can significantly impact people's lives (hiring), and where the workforce is heterogeneous with varying levels of digital competence. Therefore, a comprehensive training strategy that addresses role boundaries, collaborative sensemaking, and ongoing support is crucial to ensure responsible and effective AI use. 
 
 The mentioned decisions are in turn encoded as follows: 
++---------------+-----------------------------------+---------------------------------------------------------------------+
+| Field         | Description                       | Value                                                               |
++---------------+-----------------------------------+---------------------------------------------------------------------+
+| role          | Role in the organisation          | HR Director                                                         |
++---------------+-----------------------------------+---------------------------------------------------------------------+
+| attitude      | Attitude towards AI               | Cautious                                                            |
++---------------+-----------------------------------+---------------------------------------------------------------------+
+| self-efficacy | Self-efficacy with AI             | Low                                                                 |
++---------------+-----------------------------------+---------------------------------------------------------------------+
+| key concerns  | Key concerns about AI use         | Fairness, accountability, employee trust, tech gap marginalisation  |
++---------------+-----------------------------------+---------------------------------------------------------------------+
+| motivations   | Motivations for using AI          | Improving efficiency, Responsible integration, Duty of care         |
++---------------+-----------------------------------+---------------------------------------------------------------------+
+| experience    | Previous experience with AI tools | Limited hands-on experience with AI-tools                           |
++---------------+-----------------------------------+---------------------------------------------------------------------+
 
 The information about the learning context and the derived strategies for AI literacy learning allow to generate a learning path composed of a number of steps and corresponding goals. These steps are conceptually linked with iSQD (Skills, Qualifications, Development) strategies. 
 
