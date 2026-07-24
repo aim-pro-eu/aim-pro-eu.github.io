@@ -372,6 +372,151 @@ The information about the learning context and the derived strategies for AI lit
 
 At the end of the learning path, Elena is expected to have achieved a number of competencies with corresponding proficiencies. A summary of such an outcome is provided in the following: 
 
+<style type="text/css">
+.tg {
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  width: auto;
+}
+
+.tg th,
+.tg td {
+  border: 1px solid black !important;
+  font-size: 14px;
+  padding: 10px 5px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tg th {
+  font-weight: bold;
+}
+
+/* Force bottom border */
+.tg tbody tr:last-child td {
+  border-bottom: 1px solid black !important;
+}
+</style>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>Competency</th>
+      <th>Description</th>
+      <th>Category</th>
+      <th>Proficiency Level</th>
+      <th>Why it is activated</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>D01</td>
+      <td>AI Concept Understanding</td>
+      <td>Comprehend what AI is, its types, and how it differs from traditional software</td>
+      <td>DIGITAL</td>
+      <td>FOUNDATION</td>
+      <td>Elena and the team need basic understanding before use.</td>
+    </tr>
+    <tr>
+      <td>D05</td>
+      <td>AI Output Evaluation</td>
+      <td>Critically assess AI-generated content for accuracy, bias, and reliability</td>
+      <td>DIGITAL</td>
+      <td>INTERMEDIATE</td>
+      <td>They must evaluate AI-generated screening outputs for accuracy, bias and reliability.</td>
+    </tr>
+    <tr>
+      <td>D07</td>
+      <td>AI-Augmented Decision Making</td>
+      <td>Integrate AI insights with human judgment for informed decisions</td>
+      <td>DIGITAL</td>
+      <td>INTERMEDIATE</td>
+      <td>AI should support, not replace, HR judgement.</td>
+    </tr>
+    <tr>
+      <td>D08</td>
+      <td>Generative AI Literacy</td>
+      <td>Understand the capabilities and limitations of generative AI models</td>
+      <td>DIGITAL</td>
+      <td>INTERMEDIATE</td>
+      <td>Elena needs to understand AI capabilities and limitations before explaining them.</td>
+    </tr>
+    <tr>
+      <td>D09</td>
+      <td>AI Tools Selection</td>
+      <td>Identify and select appropriate AI tools for specific tasks</td>
+      <td>DIGITAL</td>
+      <td>INTERMEDIATE</td>
+      <td>The team needs to judge whether the tool is appropriate for screening tasks.</td>
+    </tr>
+    <tr>
+      <td>D10</td>
+      <td>Human-AI Collaboration</td>
+      <td>Distribute tasks between humans and AI based on respective strengths</td>
+      <td>DIGITAL</td>
+      <td>INTERMEDIATE</td>
+      <td>The team must define what AI does and what humans decide.</td>
+    </tr>
+    <tr>
+      <td>D11</td>
+      <td>Digital Content Co-creation</td>
+      <td>Collaborate with AI to produce and enhance digital content</td>
+      <td>DIGITAL</td>
+      <td>INTERMEDIATE</td>
+      <td>Elena may need to co-create training materials, prompts, checklists or guidance with colleagues.</td>
+    </tr>
+    <tr>
+      <td>D16</td>
+      <td>Data Privacy in AI Contexts</td>
+      <td>Apply data protection principles when using AI systems</td>
+      <td>DIGITAL</td>
+      <td>FOUNDATION</td>
+      <td>Candidate data is sensitive and requires careful handling.</td>
+    </tr>
+    <tr>
+      <td>D23</td>
+      <td>AI Workflow Integration</td>
+      <td>Embed AI tools into professional and educational workflows</td>
+      <td>DIGITAL</td>
+      <td>ADVANCED</td>
+      <td>AI may later be embedded into the HR workflow.</td>
+    </tr>
+    <tr>
+      <td>R05</td>
+      <td>AI Change Management</td>
+      <td>Lead organisational transitions involving AI adoption</td>
+      <td>RESILIENCE</td>
+      <td>ADVANCED</td>
+      <td>Elena is leading an organisational change process.</td>
+    </tr>
+    <tr>
+      <td>R19</td>
+      <td>Stakeholder Engagement with AI</td>
+      <td>Communicate AI strategies to diverse stakeholders</td>
+      <td>RESILIENCE</td>
+      <td>INTERMEDIATE</td>
+      <td>She needs to communicate expectations, risks and boundaries.</td>
+    </tr>
+    <tr>
+      <td>R24</td>
+      <td>Community of Practice Building</td>
+      <td>Foster networks for sharing AI best practices</td>
+      <td>RESILIENCE</td>
+      <td>INTERMEDIATE</td>
+      <td>Sustainable team use requires shared learning and exchange.</td>
+    </tr>
+    <tr>
+      <td>R27</td>
+      <td>Human Agency and Oversight</td>
+      <td>Maintain meaningful human agency and oversight when AI systems support or automate decisions and actions.</td>
+      <td>RESILIENCE</td>
+      <td>ADVANCED</td>
+      <td>Human authority and accountability must remain explicit.</td>
+    </tr>
+  </tbody>
+</table>
+
 That’s it for the second issue of our newsletter. Stay updated on our progress, results and upcoming events by visiting our [website](https://aim-pro.eu/publications/), subscribing to our quarterly [newsletter](https://aim-pro.eu/newsletters/), and following us on [LinkedIn](https://www.linkedin.com/company/aim-pro-eu), [YouTube](https://www.youtube.com/@AIM-PRO-EU) and [Zenodo](https://zenodo.org/communities/aim-pro-eu/). 
 
 We’ll be back in October 2026 with the next updates and stories.
