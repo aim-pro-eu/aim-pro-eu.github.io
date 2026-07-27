@@ -57,6 +57,8 @@ Dr. Clara already uses digital tools in teaching but still feels uncertain about
 
 ![Dr. Clara is one of AIM-PRO's hypothetical personas representing educators using generative AI in teaching](/images/uploads/clara.png "Dr. Clara is one of AIM-PRO's hypothetical personas representing educators using generative AI in teaching")
 
+*Dr. Clara is one of AIM-PRO's hypothetical personas representing educators using generative AI in teaching.*
+
 Starting from personas, AIM-PRO will investigate real user needs and examine whether training strategies transfer meaningfully across different educational and professional contexts. This validation process will help refine the personas and help ensure that AIM-PRO’s outputs are grounded in both research and practice. 
 
 Whether you are a university lecturer redesigning learning activity, a VET trainer seeking new pedagogical strategies, or a professional in an SME looking to use AI responsibly, **AIM-PRO is investigating your needs to build technology that fits.** 
@@ -68,6 +70,8 @@ Whether you are a university lecturer redesigning learning activity, a VET train
 The growing impact of AI across education, training and industry highlights the need for AI literacy initiatives that respond to the real needs of learners, educators, trainers and professionals. 
 
 ![Co-design workshop at AIM-PRO kick-off meeting earlier this year](/images/uploads/aim-pro-unipi-workshop-laquila-2026.jpg "Co-design workshop at AIM-PRO kick-off meeting earlier this year")
+
+*Co-design workshop at AIM-PRO kick-off meeting earlier this year*
 
 Building on data collected during the co-design workshop organised at the AIM-PRO kick-off meeting in L’Aquila (10–11 February 2026), the University of Pisa developed a structured report to consolidate and analyse stakeholder needs related to AI literacy. The workshop employed User Personas and Empathy Maps to explore the perspectives, goals, concerns and expectations of representative profiles from Higher Education (HE), Vocational Education and Training (VET), and Small and Medium Enterprises (SMEs). 
 
