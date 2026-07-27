@@ -55,7 +55,7 @@ A university lecturer, a VET trainer and an SME employee may all need AI compete
 
 Dr. Clara already uses digital tools in teaching but still feels uncertain about how generative AI should be integrated into learning activities. She sees opportunities for faster feedback, content generation, student support and instructional design. At the same time, she worries about academic integrity, the reliability of AI-generated output, student over-reliance, bias, copyright and the changing role of the teacher. 
 
-![](/images/uploads/clara.png)
+![Dr. Clara is one of AIM-PRO's hypothetical personas representing educators using generative AI in teaching](/images/uploads/clara.png "Dr. Clara is one of AIM-PRO's hypothetical personas representing educators using generative AI in teaching")
 
 Starting from personas, AIM-PRO will investigate real user needs and examine whether training strategies transfer meaningfully across different educational and professional contexts. This validation process will help refine the personas and help ensure that AIM-PRO’s outputs are grounded in both research and practice. 
 
@@ -66,6 +66,8 @@ Whether you are a university lecturer redesigning learning activity, a VET train
 #### What Do Educators, Trainers and Business Leaders Really Need from AI Literacy?
 
 The growing impact of AI across education, training and industry highlights the need for AI literacy initiatives that respond to the real needs of learners, educators, trainers and professionals. 
+
+![Co-design workshop at AIM-PRO kick-off meeting earlier this year](/images/uploads/aim-pro-unipi-workshop-laquila-2026.jpg "Co-design workshop at AIM-PRO kick-off meeting earlier this year")
 
 Building on data collected during the co-design workshop organised at the AIM-PRO kick-off meeting in L’Aquila (10–11 February 2026), the University of Pisa developed a structured report to consolidate and analyse stakeholder needs related to AI literacy. The workshop employed User Personas and Empathy Maps to explore the perspectives, goals, concerns and expectations of representative profiles from Higher Education (HE), Vocational Education and Training (VET), and Small and Medium Enterprises (SMEs). 
 
@@ -117,7 +119,7 @@ The current draft organises AI literacy into four broad competence categories, w
 
 Each competency is described through the Knowledge, Skills and Attitudes (KSA) taxonomy and tagged with one of three proficiency levels (Foundation, Intermediate, Advanced). 17 competencies are currently flagged as relevant across all three educational contexts and will form the AIM-PRO common core. 
 
-One conviction has stayed constant throughout T2.3: AI literacy in AIM-PRO has to be more than a technical syllabus. The metamodel therefore reads competencies along three dimensions that cut across the four categories above: 
+One conviction has stayed constant throughout developing Models for AI Literacy Competencies (T2.3): AI literacy in AIM-PRO has to be more than a technical syllabus. The metamodel therefore reads competencies along three dimensions that cut across the four categories above: 
 
 * a **technical dimension**, covering how AI systems work and how they are built, evaluated and used in practice; 
 * an **ethical and human-centred dimension**, covering fairness, transparency, accountability and the wider societal impact of AI; 
@@ -125,7 +127,7 @@ One conviction has stayed constant throughout T2.3: AI literacy in AIM-PRO has t
 
 This three-way reading is what allows the same learner profile to be described from a technical, an ethical and an environmental angle at once. It is also what will let [WP4 and WP5](https://aim-pro.eu/#work-packages) attach assessment evidence, OER tagging and certification logic to a single coherent model later in the project. 
 
-**Models for AI Literacy Competencies** (T2.3) has been built in close dialogue with the European policy ecosystem. The strongest reference point is the EU AI Act, in particular its Article 4 AI literacy requirement, which informs the regulatory-awareness and responsible-use strands of the framework. The work also draws on European competence frameworks (DigComp 2.2, GreenComp, EntreComp), which provide a starting structure for the digital, green and resilience categories. International AI literacy references, including the OECD/EC AILit framework, the UNESCO AI Competency Framework for Students, and the academic work of Long and Magerko, help the team check coverage and keep AIM-PRO comparable at the international level. 
+T2.3 has been built in close dialogue with the European policy ecosystem. The strongest reference point is the EU AI Act, in particular its Article 4 AI literacy requirement, which informs the regulatory-awareness and responsible-use strands of the framework. The work also draws on European competence frameworks ([DigComp 2.2](https://publications.jrc.ec.europa.eu/repository/handle/JRC128415), [GreenComp](https://joint-research-centre.ec.europa.eu/greencomp-european-sustainability-competence-framework_en), [EntreComp](https://joint-research-centre.ec.europa.eu/entrecomp-entrepreneurship-competence-framework_en)), which provide a starting structure for the digital, green and resilience categories. International AI literacy references, including the OECD/EC AILit framework, the UNESCO AI Competency Framework for Students, and the academic work of Long and Magerko, help the team check coverage and keep AIM-PRO comparable at the international level. 
 
 Every competency in the catalogue keeps a trace back to its source. The metamodel has been designed so that future updates to EU instruments can be absorbed without structural rework, an important property given how quickly the regulatory landscape is moving. 
 
