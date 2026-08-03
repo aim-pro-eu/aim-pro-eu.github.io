@@ -57,6 +57,7 @@ const menuItems = [
   { label: 'Work Plan', href: '/#work-packages' },
   { label: 'News', href: '/blog' },
   { label: 'Newsletters', href: '/newsletters' }, 
-  { label: 'Results', href: '/publications' },
+    { label: 'Results', href: '/publications' },
+    { label: 'FAQ', href: '/faq' },
 ];
 </script>

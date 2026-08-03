@@ -88,6 +88,14 @@ const newslettersCollection = defineCollection({
   }),
 });
 
+const faqCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    order: z.number().optional(),
+  }),
+});
+
 const privacyCollection = defineCollection({
   type: 'content',
   schema: z.object({
@@ -102,5 +110,6 @@ export const collections = {
   'workpackages': workPackagesCollection,
   'blog': blogCollection,
   'newsletters': newslettersCollection,
+  'faq': faqCollection,
   'privacy-policy': privacyCollection
 };

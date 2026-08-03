@@ -145,3 +145,14 @@ collections:
             - { label: "Title", name: "title", widget: "string" }
             - { label: "Last Updated", name: "date", widget: "datetime" }
             - { label: "Body Content", name: "body", widget: "markdown" }
+
+  - name: "faq"
+    label: "FAQ"
+    folder: "src/content/faq"
+    create: true
+    delete: true
+    fields:
+      - { label: "Question", name: "title", widget: "string" }
+      - { label: "Order (Display Sequence)", name: "order", widget: "number", default: 0 }
+      - { label: "Answer (Rich Text)", name: "body", widget: "markdown" }
+
