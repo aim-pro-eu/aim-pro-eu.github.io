@@ -91,8 +91,10 @@ const newslettersCollection = defineCollection({
 const faqCollection = defineCollection({
   type: 'content',
   schema: z.object({
-    title: z.string(),
-    order: z.number().optional(),
+    questions: z.array(z.object({
+      title: z.string(),
+      answer: z.string(),
+    })),
   }),
 });
 

@@ -148,11 +148,16 @@ collections:
 
   - name: "faq"
     label: "FAQ"
-    folder: "src/content/faq"
-    create: true
-    delete: true
-    fields:
-      - { label: "Question", name: "title", widget: "string" }
-      - { label: "Order (Display Sequence)", name: "order", widget: "number", default: 0 }
-      - { label: "Answer (Rich Text)", name: "body", widget: "markdown" }
+    files:
+      - name: "faq"
+        label: "FAQ Questions"
+        file: "src/content/faq/faq.md"
+        fields:
+          - label: "Questions (drag to reorder)"
+            name: "questions"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Question", name: "title", widget: "string" }
+              - { label: "Answer (Rich Text)", name: "answer", widget: "markdown" }
 

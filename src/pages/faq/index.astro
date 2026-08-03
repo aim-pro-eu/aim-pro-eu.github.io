@@ -3,10 +3,19 @@ import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.vue';
 import Footer from '../../components/Footer.vue';
 import FaqAccordion from '../../components/ui/FaqAccordion.vue';
-import { getCollection } from 'astro:content';
+import { getEntry } from 'astro:content';
+import { createMarkdownProcessor } from '@astrojs/markdown-remark';
 
-const allFaqs = await getCollection('faq');
-const sortedFaqs = allFaqs.sort((a, b) => (a.data.order || 0) - (b.data.order || 0));
+const faqEntry = await getEntry('faq', 'faq');
+const questions = faqEntry?.data.questions ?? [];
+
+const markdownProcessor = await createMarkdownProcessor();
+const renderedFaqs = await Promise.all(
+  questions.map(async (question) => ({
+    title: question.title,
+    html: (await markdownProcessor.render(question.answer)).code,
+  }))
+);
 ---
 
 <Layout title="FAQ | AIM-PRO">
@@ -42,18 +51,11 @@ const sortedFaqs = allFaqs.sort((a, b) => (a.data.order || 0) - (b.data.order ||
 
         <div class="space-y-2" id="faq-container">
           {
-            await Promise.all(
-              sortedFaqs.map(async (item) => {
-                const { Content } = await item.render();
-                return (
-                  <FaqAccordion client:load question={item.data.title} data-faq-item>
-                    <div class="prose prose-slate max-w-none">
-                      <Content />
-                    </div>
-                  </FaqAccordion>
-                );
-              })
-            )
+            renderedFaqs.map((item) => (
+              <FaqAccordion client:load question={item.title} data-faq-item>
+                <div class="prose prose-slate max-w-none" set:html={item.html} />
+              </FaqAccordion>
+            ))
           }
         </div>
       </div>
