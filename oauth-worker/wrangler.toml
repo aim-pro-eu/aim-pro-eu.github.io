@@ -1,0 +1,3 @@
+name = "aim-pro-decap-oauth"
+main = "worker.js"
+compatibility_date = "2026-08-03"
