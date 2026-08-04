@@ -18,7 +18,7 @@ const { newsletter } = Astro.props;
 const { Content } = await newsletter.render();
 
 const formattedDate = new Intl.DateTimeFormat('en-GB', {
-  day: 'numeric', month: 'long', year: 'numeric'
+  month: 'long', year: 'numeric'
 }).format(newsletter.data.date);
 ---
 
@@ -95,7 +95,89 @@ const formattedDate = new Intl.DateTimeFormat('en-GB', {
   </div>
 </Layout>
 
+<script>
+  // Astro génère déjà un id slugifié sur chaque titre markdown (h2-h6).
+  // On ajoute juste un lien "#" cliquable à côté de chaque titre pour que
+  // les admins puissent copier facilement l'URL directe d'une section
+  // (utile pour pointer vers une section précise depuis l'email de newsletter).
+  const headings = document.querySelectorAll('article .prose :is(h2, h3, h4, h5, h6)[id]');
+
+  const toast = document.createElement('div');
+  toast.className = 'heading-anchor-toast';
+  toast.textContent = 'Link copied!';
+  document.body.appendChild(toast);
+
+  let toastTimeout: ReturnType<typeof setTimeout>;
+  const showToast = () => {
+    toast.classList.add('is-visible');
+    clearTimeout(toastTimeout);
+    toastTimeout = setTimeout(() => toast.classList.remove('is-visible'), 1500);
+  };
+
+  headings.forEach((heading) => {
+    const link = document.createElement('a');
+    link.className = 'heading-anchor no-print';
+    link.href = `#${heading.id}`;
+    link.setAttribute('aria-label', `Copy link to "${heading.textContent?.trim()}"`);
+    link.textContent = '#';
+    link.addEventListener('click', async () => {
+      const url = `${window.location.origin}${window.location.pathname}#${heading.id}`;
+      try {
+        await navigator.clipboard.writeText(url);
+        showToast();
+      } catch {
+        // Clipboard API unavailable (e.g. insecure context): the hash navigation still works.
+      }
+    });
+    heading.appendChild(link);
+  });
+</script>
+
 <style is:global>
+  /* Offset pour que les titres ne soient pas cachés sous la navbar fixe
+     quand on arrive via une ancre (#kick-off-meeting, etc.) */
+  article .prose :is(h2, h3, h4, h5, h6)[id] {
+    scroll-margin-top: 6.5rem;
+  }
+
+  .heading-anchor {
+    margin-left: 0.4em;
+    opacity: 0;
+    text-decoration: none;
+    color: #1d4ed8;
+    font-size: 0.75em;
+    vertical-align: middle;
+    transition: opacity 0.15s ease;
+  }
+
+  article .prose :is(h2, h3, h4, h5, h6)[id]:hover .heading-anchor,
+  .heading-anchor:focus-visible {
+    opacity: 1;
+  }
+
+  .heading-anchor-toast {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(0.5rem);
+    background: #0f172a;
+    color: white;
+    padding: 0.9rem 1.75rem;
+    border-radius: 9999px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.4);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    z-index: 60;
+  }
+
+  .heading-anchor-toast.is-visible {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
   @media print {
     @page {
       margin: 2cm;
