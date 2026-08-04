@@ -42,10 +42,16 @@
           <h3 class="text-sm font-semibold text-white tracking-wider uppercase mb-4">Contact</h3>
           <p class="text-sm text-slate-400 mb-2">Project Coordinator: UDA</p>
           <a href="mailto:info@aim-pro.eu" class="text-sm text-blue-400 hover:text-blue-300 transition-colors">info@aim-pro.eu</a>
-          <p class="text-sm text-slate-500 mt-4">
+          <p class="text-sm text-slate-500 mt-4 mb-5">
             Via Giovanni Di Vincenzo, 16/B<br>
             67100 L'Aquila AQ, Italy
           </p>
+          <a
+            href="/contact"
+            class="inline-flex items-center justify-center px-4 py-2 bg-blue-700 hover:bg-blue-600 text-white text-sm font-medium rounded-md transition-colors"
+          >
+            Contact AIM-PRO
+          </a>
         </div>
 
         <div>
