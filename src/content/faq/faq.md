@@ -118,4 +118,45 @@ questions:
       institutions, VET providers and SMEs across Europe. Organisations
       interested in testing resources can express interest via
       [info@aim-pro.eu ](mailto:info@aim-pro.eu)
+  - title: How can I stay informed about AIM-PRO activities?
+    answer: >-
+      You can stay updated by: 
+
+
+      * Subscribing to the AIM-PRO [newsletter](https://aim-pro.eu/newsletters/) 
+
+      * Following the project on [LinkedIn](https://www.linkedin.com/company/aim-pro-eu) & [YouTube](https://www.youtube.com/@AIM-PRO-EU) and accessing its outputs on [Zenodo](https://zenodo.org/communities/aim-pro-eu) 
+
+      * Visiting the website regularly for news, events, publications and project results.
+  - title: How can I participate in AIM-PRO activities?
+    answer: >-
+      AIM-PRO will organise a variety of activities throughout the project,
+      including webinars, workshops, pilot actions, dissemination events and a
+      final international conference. Opportunities to participate will be
+      announced on the project website, through the
+      [newsletter](https://aim-pro.eu/newsletters/) and via the project's
+      [LinkedIn](https://www.linkedin.com/company/aim-pro-eu) channel.  
+
+
+      Whether you are an educator, trainer, learner, researcher, company representative, policymaker, or simply interested in AI literacy, you are encouraged to follow the project and take part in relevant activities as they become available.
+  - title: Can my organisation collaborate with AIM-PRO?
+    answer: >-
+      Yes. AIM-PRO welcomes collaboration with organisations interested in AI
+      literacy, digital education, workforce development and responsible AI
+      adoption. Higher education institutions, VET providers, companies,
+      research organisations, public authorities, professional networks and
+      other stakeholders may have opportunities to engage with the project
+      through pilot activities, events, dissemination actions, knowledge
+      exchange initiatives and stakeholder consultations. 
+
+
+      If your organisation is interested in collaborating with AIM-PRO, please contact the project team at ​[info@aim-pro.eu](mailto:info@aim-pro.eu).
+  - title: How can I contact the AIM-PRO team?
+    answer: >-
+      You can contact the AIM-PRO consortium through the [contact
+      form](https://aim-pro.eu/contact/) available on the website or via email:
+      [info@aim-pro.eu](mailto:info@aim-pro.eu). 
+
+
+      We welcome enquiries from educators, learners, researchers, organisations, policymakers, media representatives and anyone interested in the project's activities and results.
 ---
