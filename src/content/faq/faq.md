@@ -33,4 +33,89 @@ questions:
       youth work in Switzerland, Europe and worldwide. Together, these funding
       bodies support AIM-PRO's mission to strengthen AI literacy and promote
       responsible AI adoption across Europe.
+  - title: Who can benefit from AIM-PRO?
+    answer: >-
+      AIM-PRO is designed for anyone involved in education, training, research,
+      industry or policymaking who wants to strengthen AI literacy and promote
+      the responsible use of Artificial Intelligence. 
+
+
+      The project primarily supports: 
+
+
+      * Higher Education Institutions (HEIs), including lecturers, researchers and students 
+
+      * Vocational Education and Training (VET) providers, trainers and learners 
+
+      * Professional trainers and lifelong learning providers 
+
+      * Companies of all sizes, including SMEs, HR departments, entrepreneurs and workers seeking to develop AI-related competencies 
+
+      * Researchers and experts in Artificial Intelligence, Model-Driven Engineering (MDE), sustainability, education and innovation 
+
+      * Public institutions and organisations involved in education, skills development and workforce policies 
+
+
+      AIM-PRO also supports policymakers, media organisations, the wider research community and citizens by promoting ethical, sustainable and inclusive AI adoption.
+  - title: What will AIM-PRO deliver?
+    answer: >-
+      AIM-PRO will develop a comprehensive ecosystem of resources, methodologies
+      and digital tools to support AI literacy across education and professional
+      training. Key outputs include: 
+
+
+      * An AI Literacy Framework for education and training contexts  
+
+      * Open Educational Resources (OERs) and learning materials 
+
+      * AI literacy learning scenarios and personalised learning pathways  
+
+      * Digital tools based on Artificial Intelligence, MDE, and Digital Twin technologies.  
+
+      * Training and implementation guidelines for educators and trainers  
+
+      * Open badges / LinkedIn-compatible micro-credentials aligned with European qualification framework (EQF) levels 5-6 
+
+      * Pilot implementations and evaluation reports  
+
+      * Scientific publications and policy recommendations.
+  - title: What makes AIM-PRO unique?
+    answer: >-
+      Many initiatives focus on teaching AI skills, but AIM-PRO goes further by
+      integrating three dimensions that are rarely combined in a single
+      framework: 
+
+
+      * **Responsible and sustainable AI by design.** AIM-PRO embeds ethics and sustainability directly into the learning process rather than treating them as add-ons. Measurable environmental indicators, including energy consumption, CO₂ emissions and hardware usage, are integrated into the learning framework alongside structured ethical guidance, enabling learners to understand both the impact and responsible use of AI. 
+
+      * **Integration of AI, entrepreneurial and green competences.** The project unifies established European frameworks, DigComp, UNESCO's AI competency frameworks, GreenComp and EntreComp, into a single coherent model that connects digital, green and entrepreneurial skills. 
+
+      * **A technically innovative learning backbone.** AIM-PRO leverages Educational Knowledge Graphs (GraphRAG), MDE and Digital Twin technologies to enable adaptive, personalised and explainable learning experiences rather than static content delivery. 
+
+
+      Beyond this, AIM-PRO offers **gamified learning pathways** (including AI ethics quests and Green AI challenges), **open badges and micro-credentials**, and **freely accessible Open Educational Resources**. These are co-designed and tested with higher education institutions, VET providers and SMEs to ensure relevance to real-world professional needs.
+  - title: How long does the project run?
+    answer: AIM-PRO runs from 1 February 2026 to 31 January 2029. During this
+      period, the consortium will develop and validate innovative AI literacy
+      frameworks, tools and learning resources. Public project results will
+      continue to be available through the website and associated repositories
+      after the project's completion, supporting the long-term sustainability
+      and impact of AIM-PRO.
+  - title: Will AIM-PRO resources be freely available?
+    answer: Yes. AIM-PRO is committed to openness and knowledge sharing. Project
+      results, publications, learning resources, videos and other materials will
+      be made available through the project website and associated open-access
+      repositories (e.g. [Zenodo](https://zenodo.org/communities/aim-pro-eu))
+      whenever possible.
+  - title: How will AIM-PRO test and validate its results?
+    answer: The project's frameworks, tools and learning resources will be piloted
+      and validated across higher education, vocational education and training,
+      and professional learning environments. Feedback from learners, educators,
+      trainers, companies and other stakeholders will help ensure that the
+      results are practical, relevant and transferable across Europe.
+  - title: Are there opportunities for pilot testing?
+    answer: Yes! AIM-PRO will pilot its frameworks and tools with higher education
+      institutions, VET providers and SMEs across Europe. Organisations
+      interested in testing resources can express interest via
+      [info@aim-pro.eu ](mailto:info@aim-pro.eu)
 ---
