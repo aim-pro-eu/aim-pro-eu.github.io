@@ -117,7 +117,7 @@ questions:
     answer: Yes! AIM-PRO will pilot its frameworks and tools with higher education
       institutions, VET providers and SMEs across Europe. Organisations
       interested in testing resources can express interest via
-      [info@aim-pro.eu ](mailto:info@aim-pro.eu)
+      [info@aim-pro.eu](mailto:info@aim-pro.eu).
   - title: How can I stay informed about AIM-PRO activities?
     answer: >-
       You can stay updated by: 
