@@ -95,6 +95,21 @@ toPreview: function(obj, getAsset, fields) {
 }
 
     });
+
+    // MDX n'accepte pas les autolinks <https://...> ni les liens vides [url]()
+    // que produit l'éditeur Markdown : on les réécrit en [url](url) avant sauvegarde.
+    CMS.registerEventListener({
+      name: 'preSave',
+      handler: ({ entry }) => {
+        const body = entry.getIn(['data', 'body']);
+        if (typeof body !== 'string') return entry.get('data');
+        const fixed = body
+          .replace(/<(https?:\/\/[^\s<>]+)>/g, '[$1]($1)')
+          .replace(/\[([^\]]+)\]\(\s*\)/g, (m, text) =>
+            /^https?:\/\//.test(text) ? `[${text}](${text})` : m);
+        return entry.get('data').set('body', fixed);
+      },
+    });
   </script>
   </body>
 </html>
