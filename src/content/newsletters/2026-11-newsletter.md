@@ -1,6 +1,7 @@
 ---
 title: "From Framework to Foundations: The AIM-PRO Foundational Framework Is Here"
-date: 2026-11-02T16:29:00.000+01:00
+date: 2026-11-02T16:57:00.000+01:00
+linkedinPosts: []
 ---
 ### Welcome to the third issue of the AIM-PRO newsletter! 
 
@@ -22,8 +23,11 @@ The meta-model was validated by translating real learning scenarios (like the El
 
 ![](/images/uploads/image2.png)
 
+**Updates from Université de Rennes (REN)** 
 
+**Green, Assessable, Personal: The Missing Views of AI Literacy** 
 
+Earlier issues showed how WP2 turns AI literacy into structured learning scenarios. Three further views complete the picture. The green view records the energy, CO2, and hardware each AI activity uses, and how reliable each figure is. The assessment view links competencies to the evidence that proves them. The learner profile captures each person's attitude to and confidence with AI, so the scenario offers the phases that suit them. 
+**The same learning scenario can be read from a technical, a pedagogical, and an environmental angle at once.** 
 
-
-gwgegeg
+![Figure X. Elena’s learning path read from three angles: what she learns, what runs it, and what it costs. ](/images/uploads/image3.png)
