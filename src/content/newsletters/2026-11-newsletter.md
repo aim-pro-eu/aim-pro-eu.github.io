@@ -1,6 +1,7 @@
 ---
 title: "From Framework to Foundations: The AIM-PRO Foundational Framework Is Here"
 date: 2026-11-02T16:57:00.000+01:00
+coverImage: /images/uploads/aim-pro-newsletter3-cover.png
 linkedinPosts: []
 ---
 # Welcome to the third issue of the AIM-PRO newsletter! 
